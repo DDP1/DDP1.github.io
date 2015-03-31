@@ -9,19 +9,6 @@
 //  What will your responses look like?
 
 
-var userResponse = prompt("How is your day?");
-
-if (userResponse === "good") {
-
-	document.getElementById('compResponse').innerHTML = "That's awesome!";	
-
-};
-
-
-
-
-
-
 
 
 
