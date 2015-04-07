@@ -1,16 +1,75 @@
 <!DOCTYPE <html>
 <head>
-	<title>Welcome to Student Test Site!</title>
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Student Test</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body>
+	<div class="container">
+  		<div class="row" id="headerRow">
+  			<div class="col-xs-12">
+  				<h3>Franklin Playground</h3>
+  			</div>
+  		</div>
 
-	<h1>Here is a student site test thing....</h1>
+  		<div class="row">
+  			<div class="col-xs-2"></div>
+  			<div class="col-xs-8 col-md-8">
+  				<button id="homeButton" type="button" class="btn btn-default btn-lg btn-block ">Return Home</button>
+  			</div>
+  			<div class="col-xs-2"></div>
+  		</div>
 
-	<p id="compResponse"></p>
+  		<div class="row">
+  			<div class="col-xs-12 col-sm-5 questionWrapper">
+  				<h5>Possible Courses:</h5>
+  				<button id="courseButton" type="button" class="btn btn-default btn-sm">Courses</button>
+  				<ul id="courses">
 
-	<button id="questionButton" onClick="dayAsker()">Click this </button>
+  				</ul>
+  			</div>
+  			
+  			<div class="col-sm-2"></div>
 
-	<script src="script.js"></script>
+  			<div class="col-xs-12 col-sm-5 questionWrapper">
+  				<h5>Possible Careers:</h5>
+  				<button id="careerButton" type="button" class="btn btn-default btn-sm">Careers:</button>
+  				<ul id="careers">
+
+  				</ul>
+  			</div>
+  		</div>
+
+      <button id="tester" type="button" class="btn btn-default btn-sm" onClick="compare()">Printer vs. Paper</button>
+
+
+
+
+	</div>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- My personal javascript file below: -->
+	<script src="test.js"></script>
 
 </body>
 </html>

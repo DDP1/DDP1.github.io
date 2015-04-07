@@ -1,0 +1,48 @@
+body {
+	background-color: #B36B3D;
+}
+
+.col-xs-12 h3 {
+	text-align: center;
+}
+
+#homeButton {
+	background-color: #DC9A6D;
+	border: solid black 3px;
+	margin: 10px auto;
+	display: block;
+
+}
+
+#headerRow {
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: #DC9A6D;
+}
+
+.questionWrapper {
+	border: solid black 5px;
+	border-radius: 10px;
+	background-color: #DC9A6D;
+}
+
+.questionWrapper h5 {
+	text-align: center;
+}
+
+.questionWrapper ul {
+	
+
+}
+
+
+#courseButton {
+	margin: auto;
+	display: block;
+}
+
+#careerButton {
+	margin: auto;
+	display: block;
+}
+

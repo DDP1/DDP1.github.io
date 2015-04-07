@@ -1,9 +1,16 @@
-//   TWO GROUPS FOR THE DRILL:
+//  DRILL:  WHAT WILL THE CODE BELOW DO????
+var printer = prompt("How many printers are in this room?");
 
-//  Group 1:   Finished and up to date on projects
-//				Sit right up front near me :)
+var paper = prompt("How many sheets of paper do you have?");
 
-//  Group 2:  Not finished and still working.  If you are part of this group, you should go start working now!
-
-
-
+function compare() {
+	if (printer <= paper) {
+		console.log("There is more paper. The amount of paper is " + paper);
+	} else if (paper <= printer) {
+		console.log("There are more printers. The number of printers is " + printer);
+	} else if (paper == printer) {
+		console.log("The number of printers and sheets of paper, " + printer + ", are the same.")
+	} else {
+		console.log("Fatal error: Invalid values.")
+	}
+}
