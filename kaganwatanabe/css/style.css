@@ -1,0 +1,25 @@
+#rock{
+	height: 250px;
+	width: 250px;
+	
+	margin-left: 120px;
+}
+#paper{
+	height: 250px;
+	width: 250px;
+}
+#scissors{
+	height: 250px;
+	width: 250px;
+}
+#gameWrapper button{
+	margin-right: 150px;
+	margin-left: auto;
+}
+h1{
+	text-align: center;
+}
+
+body{
+	
+}
