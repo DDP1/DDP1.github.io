@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="yourstyles.css">
+<title>Input/Output in JavaScript</title>
+
+<style type="text/css">
+#outputDiv {
+height: 100px;
+width: 900px;
+background-color: yellow;
+border-style: solid;
+border-radius: 20px;
+padding: 10px }
+
+.labeldiv {
+height: 35px;
+width: 270px;
+background-color: pink;
+border-style: solid;
+border-radius: 20px;
+margin-left: 300px; 
+padding: 10px;
+text-align: center; }
+
+
+body {
+font-size: 14pt;
+font-family: "Courier New"}
+</style>
+<!-- Styles are above, JavaScript is below -->
+
+<script type="text/javascript">
+
+
+function wordCountT()
+{
+// get the div 
+var outputDivId = document.getElementById('outputDiv');
+
+// write javaScript variable to the div
+outputDivId.innerHTML = document.myFormT.myText.value;
+}
+
+
+function wordCountTA()
+{
+// get the div 
+var outputDivId = document.getElementById('outputDiv');
+
+// write javaScript variable to the div
+outputDivId.innerHTML = document.myFormTA.myTextArea.value;
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+<button onclick="wordCountT()" id="clockButton">Click me - Input Tag</button>
+
+<form name="myFormT" >
+<br>
+<input name="myText" size=80 value="This is an input tag with type=Text, Type something here." type="text" >
+<br>
+</form>
+
+<!-- ========================================================== -->
+<!-- don't mix up a) text wtih b) textArea -->
+
+<br>
+<form name="myFormTA"> 
+<textarea name="myTextArea" cols=60 rows=9>Type in here</textarea name>
+<br>
+</form> 
+<!-- end of the form -->
+
+<p>
+<button onclick="wordCountTA()" id="clockButton">Click me - TextArea Tag</button>
+
+<!-- below is out output -->
+
+
+<div class="labeldiv" >Output Div Below </div>
+
+
+<div id="outputDiv">
+</div>
+
+<br>
+Hints:
+<ol>
+<li>Buttons should be outside of the form</li>
+<li>Tips for form tags are here: <a href="http://www.webmonkey.com/2010/02/html_cheatsheet/#Forms" target="_blank">http://www.webmonkey.com/2010/02/html_cheatsheet/#Forms</a></li>
+<li>Use name attribue. For example name="myObjectName"</li>
+<li>In Javascript use the property of .value &nbsp &nbsp For example: my var = document.myFormT.myText.value; </li>
+<li>In Javascript write output with the method .innerhtml </li>
+</ol>
+
+
+<h1>Sample Code:</h1>
+function wordCountTA()<br>
+{<br>
+// get the div <br>
+var outputDivId = document.getElementById('outputDiv');<br>
+<br>
+// write javaScript variable to the div<br>
+outputDivId.innerHTML = document.myFormTA.myTextArea.value;<br>
+}<br>
+
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 //  DRILL:  WHAT WILL THE CODE BELOW DO????
-var printer = prompt("How many printers are in this room?");
+/*var printer = prompt("How many printers are in this room?");
 
 var paper = prompt("How many sheets of paper do you have?");
 
@@ -14,3 +14,15 @@ function compare() {
 		console.log("Fatal error: Invalid values.")
 	}
 }
+*/
+
+
+$("#scroll").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#test").offset().top 
+	}, 2000)
+
+})
+
+
+
