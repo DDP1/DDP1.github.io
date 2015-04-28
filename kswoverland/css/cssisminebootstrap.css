@@ -1,0 +1,24 @@
+marquee {
+	font-size: 100px;
+}
+#weapon {
+	font-size: 50px;
+    background-color: #202020;
+    color: white;
+}
+#enemy{
+	font-size: 40px;
+
+}
+#yay{
+	font-size: 50px;
+        background-color: #202020;
+    color: white;
+}
+body {
+    background-color: #04B4AE;
+}
+
+#title {
+    font-size: 60px;
+}
