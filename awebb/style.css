@@ -1,0 +1,63 @@
+p {
+  background-color: blue;
+}
+
+
+#navigation li a {
+	text-decoration: none;
+	display: block;
+	background-color: blue;
+	width: 100px;
+	text-align: center;
+	border: solid white 1px;
+}
+
+#navigation {
+		list-style:none;																																																																																																					
+																																																																																															
+}
+
+.paragraph {
+	border: solid white 2px;
+	border-radius: 5px;
+}
+
+div {
+	text-align:right;
+}
+
+p {
+	color: white;
+	margin-left: 20px;
+}
+
+body{
+	background-color: black;
+}
+
+p {
+	font-style: italic;
+}
+
+div {
+	border: 2px solid;
+	border-radius: 25px;
+}
+
+
+h2 {
+	color: white;
+	 text-align: center;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+#boss {
+	background-image: url("http://www.netanimations.net/1311789557_epic_australian_rules_football_catch.gif");
+}
+	
+	
