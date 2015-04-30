@@ -1,0 +1,75 @@
+.container {
+background-color: skyblue;
+height: 1000px;
+width: 1000px;
+margin: auto;
+border: solid black;
+border-radius: 25px;
+}
+
+#computerResponse {
+border: solid black;
+width: 390px;
+height: 130px;
+margin: auto;
+margin-bottom: 10px;
+text-align: center;
+}
+
+#userResponse {
+border: solid black;
+width: 390px;
+height: 130px;
+margin: auto;
+border-radius: 25px;
+}
+
+#header{
+width: 400px;
+margin: auto;
+border: solid black;
+background-color: lightblue;
+margin-bottom: 40px;
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+#rock {
+	width: 130px;
+	height: 130px;
+	
+
+}
+
+#paper {
+	width: 130px;
+	height: 130px;
+	
+}
+
+#scissors {
+	width: 130px;
+	height: 130px;
+	
+}
+img {
+height: 130px ;
+width: 130px;
+border-radius: 25px;
+
+
+}
+
+img:hover {
+width: 120px;
+height: 120px;
+display: block;
+margin: auto;
+margin-top: 5px;
+
+}
+
