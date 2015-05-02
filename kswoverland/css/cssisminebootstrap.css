@@ -27,8 +27,9 @@ body {
 }
 
 #computerPick{
+   text-align: center;
     font-size: 50px;
-    text-align: center;
+   
 }
 
 #opm8 {
@@ -37,5 +38,9 @@ body {
 }
 
 #pictures{
+    text-align: center;
+}
+
+#uuu{
     text-align: center;
 }
