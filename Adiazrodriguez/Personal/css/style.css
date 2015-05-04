@@ -1,0 +1,143 @@
+/*******General Content******/
+
+h2{
+	text-decoration: underline;
+}
+
+body{
+	background-image: url(http://slowbuddy.com/wp-content/gallery/plain-background/4567766846.jpg);
+	color: white;
+}
+
+.Main_title{
+	text-align: center;
+}
+
+.links{
+	color: #FFCD00;
+	text-decoration: none;
+}
+
+.text_box{
+	border: solid 5px;
+	border-color: #4271DE;
+	background-color: #1C56DA;
+}
+
+/*******Navigation********/
+
+.navigation li a:hover{
+	background-color: black;
+}
+/****Largest Nav box******/
+.navigation{
+	border:solid black 10px;
+	border-radius: 20px;
+	padding: 30px;
+	list-style: none;
+	background-color: #1C56DA;	
+	text-align: center;
+}
+
+.navigation li a{
+	text-decoration: none;
+	background-color: #4271DE;
+	color: white;
+	border: solid black 2px;
+	border-radius: 10px;
+	padding: 5px;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+/*******Images*******/
+.youtube{
+	height: 180px;
+	width: 300px;
+}
+
+.twitch{
+	height: 325px;
+	width: 420px;
+}
+
+.lol{
+	height: 150px;
+	width: 390px;
+}
+
+.minecraft{
+	height: 100px;
+	width: 300px;
+}
+
+.cod{
+	height:100px;
+	width: 370px;
+}
+
+
+#xbox{
+	height: 200px;
+	width: 300px;
+}
+
+#steam{
+	height:200px;
+	width: 500px;
+}
+
+
+#nba2k{
+	height: 100px;
+	width: 275px;
+}
+
+#gta{
+	height:100px;
+	width: 120px;
+}
+
+#halo{
+	height: 100px;
+	width: 550px;
+}
+
+#nintendo{
+	height:100px;
+	width: 500px;
+}
+
+/*******Videos******/
+
+#lolvids{
+	height: 200px;
+	width: 490px;
+	margin: 0px 50px 0px 120px;
+}
+
+
+#codvids{
+	height: 200px;
+	width: 650px;
+	margin: 0px 50px 0px 120px;
+}
+
+#nbavids{
+	height:300px;
+	width: 600px;
+	margin: 0px 50px 0px 100px;
+}
+
+#titanfallvids{
+	height: 250px;
+	width: 600px;
+	margin:10px 0px 0px 50px;
+}
+
+iframe{
+	margin: 20px 50px 20px 55px;
+	border: solid black;
+
+}
