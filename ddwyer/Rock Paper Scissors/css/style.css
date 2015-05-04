@@ -1,0 +1,80 @@
+
+body {
+	
+	font-size: 100%;
+	text-decoration: bold;
+	background-image: url(http://blog.cvsflags.com/wp-content/uploads/2013/03/US-flag-Florida-Bridge.jpg);
+}
+
+
+
+button{
+	border-radius: 20px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+.heading{
+	text-align: center;
+	border-radius: 0px;
+	border: solid black 5px;
+	padding: 0px 0% 0px 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: tan;
+}
+
+
+#playerMove{
+	border: solid black 5px;
+	border-radius: 100px;
+	margin: 10px 10px 10px 200px;
+	padding: 10px 125px 10px 125px;
+	float: left;
+	background-color: tan;
+	text-align: center
+}
+
+
+#computerMove{
+	border: solid black 5px;
+	border-radius: 100px;
+	margin: 10px 200px 10px 10px;
+	padding: 10px 125px 56px 125px;
+	float: right;
+	background-color: tan;
+	text-align: center;
+}
+
+
+#playerChoice{
+	border: solid black 5px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 200px;
+	padding: 100px 70px 50px 70px;
+	float: left;
+	background-color: tan;
+	text-align: center;
+}
+
+
+
+#computerChoice{
+	border: solid black 5px;
+	border-radius: 10px;
+	margin: 10px 200px 10px 10px;
+	padding: 100px 70px 50px 70px;
+	float: right;
+	background-color: tan;
+	text-align: center;
+}
+
+#pics{
+	height: 300px;
+	width: 300px;
+	border-radius: 5px;
+	border: solid black  5px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
