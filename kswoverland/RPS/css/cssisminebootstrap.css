@@ -1,0 +1,46 @@
+marquee {
+	font-size: 100px;
+}
+#weapon {
+	font-size: 50px;
+    background-color: #202020;
+    color: white;
+    text-align: center;
+}
+#enemy{
+	font-size: 40px;
+    text-align: center;
+
+}
+#yay{
+	font-size: 50px;
+        background-color: #202020;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: #04B4AE;
+}
+
+#title {
+    font-size: 60px;
+}
+
+#computerPick{
+   text-align: center;
+    font-size: 50px;
+   
+}
+
+#opm8 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#pictures{
+    text-align: center;
+}
+
+#uuu{
+    text-align: center;
+}
