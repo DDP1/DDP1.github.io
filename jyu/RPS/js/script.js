@@ -48,26 +48,27 @@ function workpls() {
 
 function compare() {
 if (userChoice === enemyChoice){
-	alert("Tie!");
+	document.getElementById("opm8").innerHTML="<p>And the winner is no one you guys suck</p>";
 }
 else if (userChoice === 0 && enemyChoice === 1){
-	alert("You Lose!");
+	document.getElementById("opm8").innerHTML="<p>Get good.You are bad a luck game</p>";
 }
 else if (userChoice === 0 && enemyChoice === 2){
-	alert("You win!");
+	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real. You should stop</p>";
 }
 else if (userChoice === 1 && enemyChoice === 0){
-	alert("You win!");
+	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real. You should stop</p>";
 }
 else if (userChoice ===1 && enemyChoice === 2) {
-	alert("You Lose!");
+	document.getElementById("opm8").innerHTML="<p>Get good. You are bad a luck game</p>";
 }
 else if (userChoice ===2 && enemyChoice === 0) {
-	alert("You Lose!");
+	document.getElementById("opm8").innerHTML="<p>Get good.You are bad a luck game</p>";
 }
 else if (userChoice ===2 && enemyChoice === 1) {
-	alert("You win!");
+	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real you should stop</p>";
 }
 showchoice();
 }
 
+//document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real you should stop";
