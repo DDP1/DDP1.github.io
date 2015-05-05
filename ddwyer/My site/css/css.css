@@ -1,0 +1,93 @@
+
+div {
+	border: solid black 5px;
+	padding: 10px;
+	background-color: #B6730D;
+	list-style: none;
+}
+
+body {
+	background-color: lightblue;
+	font-size: 100%;
+	text-decoration: bold;
+}
+
+ol {
+	list-style: none;
+
+}
+
+ol li a{
+	text-decoration: none;
+	color: #532910;
+}
+
+ol li:hover{
+	font-size: 200%;
+
+}
+
+img{
+	height: 250px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 400px;
+	border: solid black 4px;
+}
+
+.li{
+	width: 24%;
+	height: 35px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	float: left;
+	border-radius: 20px;
+	background-color: darkblue;
+}
+
+
+.li li {
+	text-decoration: none;
+	color: grey;
+	font-size: 200%;
+}
+
+.li:hover{
+	background-color: #B6730D;
+}
+
+.heading{
+	border-radius: 20px;
+	background-color: #B6730D;
+	color: black;
+	margin-bottom: 10px
+}
+
+.center{
+	text-align: center;
+}
+
+#mainContent{
+	border: solid black 5px;
+	border-radius: 2px;
+	padding: 10px 0px 400px 0px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+
+}
+
+.journal{
+	padding: 0px 0px 0px 0px;
+	margin: 10px 75px 10px 75px;
+	border-radius: 20px;
+	text-align: center;
+	display: block;
+}
+
+#topjournal{
+	top: 300px;
+}
+
