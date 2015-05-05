@@ -1,0 +1,21 @@
+.form-group {
+
+}
+
+#title {
+	padding: 10px 0px;
+	background: rgb(216,216,216);
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#form_holder {
+	padding: 0 40px;
+	background-color: rgb(232,232,232);
+	border-radius: 5px;
+	
+}
+
+#selector_block {
+	clear: both;
+}
