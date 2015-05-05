@@ -1,0 +1,20 @@
+body{
+	background: url(http://essexhydrodesigns.com/wp-content/uploads/2014/06/fire.jpg);
+	color: white;
+}
+
+.navbar{
+	background-color: black
+}
+
+.btn{
+	background-color: black;
+	color: white;
+	border: solid 3px;
+}
+
+.text_entry{
+	background-color: black;
+	color: white;
+	border: solid 3px;
+}
