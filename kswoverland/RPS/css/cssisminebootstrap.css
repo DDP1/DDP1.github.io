@@ -24,6 +24,7 @@ body {
 
 #title {
     font-size: 60px;
+    text-align: center;
 }
 
 #computerPick{
@@ -43,4 +44,16 @@ body {
 
 #uuu{
     text-align: center;
+}
+
+#prock:hover{
+    background-image: url('rock3.png');
+}
+
+#ppaper:hover{
+    background-image: url('paper3.png');
+}
+
+#pscissors:hover{
+    background-image: url('scissors3.png');
 }
