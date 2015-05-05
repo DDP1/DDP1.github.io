@@ -1,0 +1,29 @@
+body {
+	background-color: blue;
+}
+
+h1 {
+	color: yellow;
+	text-align: center;
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: grey;
+	padding: 10px;
+}
+
+.gameWrapper {
+	width: 80%;
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: grey;
+	padding: 20px;
+}
+
+.gameWrapper button {
+	display: block;
+	margin: auto;
+
+}
+
+
+
