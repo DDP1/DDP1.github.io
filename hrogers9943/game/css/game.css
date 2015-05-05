@@ -1,0 +1,87 @@
+#container {
+	width: 600px;
+	height: 800px;
+	margin: auto;
+	border: solid black 3px;
+	border-radius: 50px;
+	text-align: center;
+	background-color: #6B4774;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#header {
+	width: 594px;
+	height: 150px;
+	margin: auto;
+	border: solid black 3px;
+	border-radius: 40px;
+	text-align: center;
+	background-color: #6B4774;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#compResponse {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border: solid black 3px;
+	border-radius: 40px;
+	text-align: center;
+	background-color: #9972A3;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+
+}
+
+#userResponse {
+	width: 422px;
+	height: 143px;
+	margin: auto;
+	border: solid black 3px;
+	border-radius: 60px;
+	text-align: center;
+	background-color: black;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+img {
+	width: 135px;
+	height: 135px;
+	float: left;
+	border: solid black 3px;
+	border-radius: 100px;
+}
+
+img:hover {
+	height: 115px;
+	width: 115px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: blue;
+}
+
+#rock {
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-right: 10px;
+}
+
+#paper {
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-right: 10px;
+}
+
+#scissors {
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-right: 10px;
+}
