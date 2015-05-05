@@ -57,3 +57,8 @@ body {
 #pscissors:hover{
     background-image: url('scissors3.png');
 }
+
+#nav {
+  background-color: #0B615E;
+  text-align: center;
+}
