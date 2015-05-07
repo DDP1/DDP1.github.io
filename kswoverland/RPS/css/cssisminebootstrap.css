@@ -62,3 +62,7 @@ body {
   background-color: #0B615E;
   text-align: center;
 }
+
+form {
+    margin-top: 20px;
+}
