@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   	<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Rock Paper Scissors</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12">
+
+			<div class="heading">
+				<h1> Rock Paper Scissors </h1>
+			</div>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-xs-6">	
+
+			<div id="playerMove">
+				<h1>Your Move</h1>
+
+				<button id="rock" onClick="playerRock()">Rock</button>
+				<button id="paper" onClick="playerPaper()">Paper</button>
+				<button id="scissors" onClick="playerScissors()">Scissors</button>
+			</div>
+
+			</div>
+
+			<div class="col-xs-6">
+				
+			<div id="computerMove">
+				<h1>Computer Move</h1>
+			</div>
+
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-xs-6">
+
+			<div id="playerChoice" class="img-responsive"></div>
+
+			</div>
+
+
+			<div class="col-xs-6">
+
+			<div id="computerChoice" class="img-responsive"></div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+				
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				
+			<script src="js/scripts.js"></script>
+		
+	</body>	
+</html>

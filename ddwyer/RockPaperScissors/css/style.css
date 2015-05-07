@@ -3,7 +3,8 @@ body {
 	
 	font-size: 100%;
 	text-decoration: bold;
-	background-image: url(http://blog.cvsflags.com/wp-content/uploads/2013/03/US-flag-Florida-Bridge.jpg);
+	background-image: url(http://www.attikainternational.com/xml/cache/mceimages/Himalayas.jpg);
+	color: white;
 }
 
 
@@ -21,17 +22,15 @@ button{
 	padding: 0px 0% 0px 0%;
 	margin-left: 0%;
 	margin-right: 0%;
-	background-color: tan;
+	background-color: grey;
 }
 
 
 #playerMove{
 	border: solid black 5px;
 	border-radius: 100px;
-	margin: 10px 10px 10px 200px;
-	padding: 10px 125px 10px 125px;
-	float: left;
-	background-color: tan;
+	margin: 10px 10px 10px 10px;
+	background-color: grey;
 	text-align: center
 }
 
@@ -39,10 +38,8 @@ button{
 #computerMove{
 	border: solid black 5px;
 	border-radius: 100px;
-	margin: 10px 200px 10px 10px;
-	padding: 10px 125px 56px 125px;
-	float: right;
-	background-color: tan;
+	margin: 10px 10px 10px 10px;
+	background-color: grey;
 	text-align: center;
 }
 
@@ -50,10 +47,10 @@ button{
 #playerChoice{
 	border: solid black 5px;
 	border-radius: 10px;
-	margin: 10px 10px 10px 200px;
-	padding: 100px 70px 50px 70px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	float: left;
-	background-color: tan;
+	background-color: grey;
 	text-align: center;
 }
 
@@ -62,10 +59,10 @@ button{
 #computerChoice{
 	border: solid black 5px;
 	border-radius: 10px;
-	margin: 10px 200px 10px 10px;
-	padding: 100px 70px 50px 70px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	float: right;
-	background-color: tan;
+	background-color: grey;
 	text-align: center;
 }
 
@@ -77,4 +74,3 @@ button{
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
-
