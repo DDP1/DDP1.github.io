@@ -85,7 +85,7 @@ body{
 
 #steam{
 	height:200px;
-	width: 500px;
+	width: 400px;
 }
 
 
@@ -140,4 +140,8 @@ iframe{
 	margin: 20px 50px 20px 55px;
 	border: solid black;
 
+}
+
+.empty{
+	height: 10px;
 }
