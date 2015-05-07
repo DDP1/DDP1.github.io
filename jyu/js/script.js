@@ -45,30 +45,54 @@ function workpls() {
 	compare();
 }
 
+var player = 0;
+var computer = 0;
+var tie = 0;
 
 function compare() {
 if (userChoice === enemyChoice){
 	document.getElementById("opm8").innerHTML="<p>And the winner is no one you guys suck</p>";
+	tie++
+	updateTie();
 }
 else if (userChoice === 0 && enemyChoice === 1){
-	document.getElementById("opm8").innerHTML="<p>Get good.You are bad a luck game</p>";
+	document.getElementById("opm8").innerHTML="<p>Get good.You are bad at a luck game</p>";
+	computer++
+	updateComputer()
 }
 else if (userChoice === 0 && enemyChoice === 2){
 	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real. You should stop</p>";
+	player++
+	updatePlayer()
 }
 else if (userChoice === 1 && enemyChoice === 0){
 	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real. You should stop</p>";
+	player++
+	updatePlayer()
 }
 else if (userChoice ===1 && enemyChoice === 2) {
-	document.getElementById("opm8").innerHTML="<p>Get good. You are bad a luck game</p>";
+	document.getElementById("opm8").innerHTML="<p>Get good. You are bad at a luck game</p>";
+	computer++
+	updateComputer()
 }
 else if (userChoice ===2 && enemyChoice === 0) {
-	document.getElementById("opm8").innerHTML="<p>Get good.You are bad a luck game</p>";
+	document.getElementById("opm8").innerHTML="<p>Get good.You are bad at a luck game</p>";
+	computer++
+	updateComputer
 }
 else if (userChoice ===2 && enemyChoice === 1) {
 	document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real you should stop</p>";
 }
-showchoice();
+
+function updateTie(){
+	document.getElementById("lastScore").innerHTML=tie;
 }
 
-//document.getElementById("opm8").innerHTML="<p>What a God. You Win. Now the bm is real you should stop";
+function updatePlayer() {
+	document.getElementById("firstScore").innerHTML=player;
+}
+
+function updateComputer() {
+	document.getElementById("middleScore").innerHTML=computer;
+}
+}
