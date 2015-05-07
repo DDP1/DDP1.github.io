@@ -11,7 +11,7 @@ var randomNum;
 
 function playerRock() {
 
-	var picture = "<div id='choice'>" + "<img id='pics' src='images/Rock.gif'>" + "</div>";
+	var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Rock.gif'>" + "</div>";
 
 	document.getElementById("playerChoice").innerHTML = picture;
 
@@ -23,7 +23,7 @@ function playerRock() {
 
 function playerPaper() {
 
-	var picture = "<div id='choice'>" + "<img id='pics' src='images/Paper.jpg'>" + "</div>";
+	var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Paper.jpg'>" + "</div>";
 
 	document.getElementById("playerChoice").innerHTML = picture;
 
@@ -35,7 +35,7 @@ function playerPaper() {
 
 function playerScissors() {
 
-	var picture = "<div id='choice'>" + "<img id='pics' src='images/Scissors.JPG'>" + "</div>";
+	var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Scissors.JPG'>" + "</div>";
 
 	document.getElementById("playerChoice").innerHTML = picture;
 
@@ -76,42 +76,42 @@ function compare() {
 
 	} else if (userChoice === 1 && compChoice === 2) {
 	
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Paper.jpg'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Paper.jpg'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
 
 	} else if (userChoice === 1 && compChoice === 3) {
 		
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Scissors.JPG'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Scissors.JPG'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
 
 	} else if (userChoice === 2 && compChoice === 1) {
 		
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Rock.gif'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Rock.gif'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
 
 	} else if (userChoice === 2 && compChoice === 3) {
 		
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Scissors.JPG'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Scissors.JPG'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
 
 	} else if (userChoice === 3 && compChoice === 1) {
 		
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Rock.gif'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Rock.gif'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
 
 	} else if (userChoice === 3 && compChoice === 2) {
 		
-		var picture = "<div id='choice'>" + "<img id='pics' src='images/Paper.jpg'>" + "</div>";
+		var picture = "<div id='choice'>" + "<img id='pics' class='img-responsive' src='images/Paper.jpg'>" + "</div>";
 
 		document.getElementById("computerChoice").innerHTML = picture;
 
@@ -119,4 +119,3 @@ function compare() {
 	};
 
 }
-
