@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<!---->
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+	<title>Form Example</title>	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="container">
+
+
+		<div class="row" id="title">
+			<h1 class="text-center">Form Example</h1>
+			<a href="trying.html">Try Out</a>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" id="form_holder">
+				<form name="example" action="action" id="example_form" class="form-horizontal">
+
+					<div class="form-group">
+						
+						<h2>Textbox: </h2>
+						<h3>Name: </h3>
+						
+						<input type="text" name="username" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						
+						<h2>Password: </h2>
+						<h3>Secret data: </h3>
+						
+						<input type="password" name="secretData" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<h2>Textarea:</h2>
+						<h3>Bio: </h3>
+						<textarea rows="4" class="form-control" name="bio"></textarea>
+						
+					</div>
+
+					
+					<div class="row">
+						
+						<div class="form-group col-md-6">
+							<h2>Radio Buttons:</h2>
+							<h3>Gender:</h3>
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="male"/> 
+									Male 
+								</label>
+							</div>
+
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="female"/> 
+									Female 
+								</label>
+							</div>
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="other"/> 
+									Other
+								</label>
+							</div>
+						</div>
+
+						<div class="form-group col-md-6">
+							<h2>Checkboxes:</h2>
+							<h3>Limbs I have:</h3>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="arms">
+									Arms
+								</label>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="legs">
+									Legs
+								</label>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="head">
+									Head
+								</label>
+							</div>
+						</div>
+						</div>
+					
+
+					<div class="form-group" id="selector_block">
+						
+						<h2>Dropdown Selector:</h2>
+						<h3>Car I want: </h3>
+
+						<select name="cars" class="form-control">
+							<option value="Volvo">Volvo XC90</option>
+							<option value="Saab">Saab 95</option>
+							<option value="Mercedes">Mercedes SLK</option>
+							<option value="Audi">Audi TT</option>
+							<option value="Lamborghini">Lamborghini Murcielago</option>
+						</select>
+					</div>
+
+					<div class="form-group text-center">
+						<input type="submit" name="submit" value="Submit" class="btn btn-default"/>
+					</div>
+
+				</form>
+
+			</div>
+		</div>
+
+		<div class="col-md-5 col-md-offset-1" id="content-display">
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</html>

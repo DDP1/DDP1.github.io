@@ -51,6 +51,7 @@ function workpls() {
 
 
 var score = 0;
+var enemyscore = 0;
 
 function compare() {
 if (userChoice === enemyChoice){
@@ -60,6 +61,8 @@ if (userChoice === enemyChoice){
 else if (userChoice === 0 && enemyChoice === 1){
 	
 	document.getElementById("opm8").innerHTML="<p>What a Noob... You Lose</p>";
+	enemyscore++;
+	computerScore();
 }
 else if (userChoice === 0 && enemyChoice === 2){
 	
@@ -76,10 +79,14 @@ else if (userChoice === 1 && enemyChoice === 0){
 else if (userChoice ===1 && enemyChoice === 2) {
 	
 	document.getElementById("opm8").innerHTML="<p>What a Noob... You Lose</p>";
+	enemyscore++;
+	computerScore();
 }
 else if (userChoice ===2 && enemyChoice === 0) {
 	
 	document.getElementById("opm8").innerHTML="<p>What a Noob... You Lose</p>";
+	enemyscore++;
+	computerScore();
 }
 else if (userChoice ===2 && enemyChoice === 1) {
 	
@@ -90,6 +97,8 @@ else if (userChoice ===2 && enemyChoice === 1) {
 function updateScore(){
 	document.getElementById("points").innerHTML=score;
 }
-
+function computerScore(){
+	document.getElementById("enemypoints").innerHTML=enemyscore;
+}
 }
 

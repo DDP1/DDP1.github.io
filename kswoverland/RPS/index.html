@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://ddp1.github.io/kswoverland/favicon.ico" rel="icon" type="image/x-icon" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Rock Paper Scissors</title>
 
@@ -21,31 +22,45 @@
   </head>
   <body>
 
+<div class="container-fluid">
+  <div class="row" id="nav">
+      <div class="col-md-2"><h1><a id="home"href="http://ddp1.github.io//kswoverland/Home/index.html">Home</a></h1></div>
+      <div class="col-md-2"><h1><a id="home"href="http://ddp1.github.io/kswoverland/RPS/index.html">RPS</a></h1></div>
+      <div class="col-md-2"><h1><a id="home"href="http://ddp1.github.io/kswoverland/Journal/index.html">Journal</a></h1></div>
+      <div class="col-md-2"><h1><a id="home"href="http://ddp1.github.io/kswoverland/GridProject/rebel/index.html">Grid Project</a></h1></div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2"><form id="form" action="searchform.asp">
+        Search: <input type="text" name="find">
+        </form></div>
+  </div>
+</div>
+
+
+
 <div class="container">
-
-<h1 id="title" class="col-xs-12">ROCK PAPER SCISSORS!</h1>
-
+<div class="row">
+  <div class="col-xs-12 col-md-12"> <h1 id="title">ROCK PAPER SCISSORS!</h1></div>
+</div>
 			
 
 <div class="row">
-
-<div class="col-md-4" id="weapon"><p>Select Your Weapon</p></div>
-<div class="col-md-4"></div>
-<div class="col-md-4"></div>
+  <div class="col-md-3"></div>
+  <div class="col-md-6" id="weapon"><p>Select Your Weapon</p></div>
+  <div class="col-md-3"></div>
 </div>
 
 <div class="row">
 
 <div class="col-xs-4 col-md-4">
-<input type="image" src="pictures/rock.png" class="img-responsive center-block" id="prock" onClick="playerRock()" />
+<img type="image" src="pictures/rock.png" class="img-responsive center-block" id="prock" onClick="playerRock()" />
 </div>
 
 <div class="col-xs-4 col-md-4">
-<input type="image" src="pictures/paper.png" class="img-responsive center-block" id="ppaper" onClick="playerPaper()"/>
+<img type="image" src="pictures/paper.png" class="img-responsive center-block" id="ppaper" onClick="playerPaper()"/>
 </div>
 
 <div class="col-xs-4 col-md-4">
-<input type="image" src="pictures/scissors.png" class="img-responsive center-block" id="pscissors" onClick="playerScissors()"/>
+<img type="image" src="pictures/scissors.png" class="img-responsive center-block" id="pscissors" onClick="playerScissors()"/>
 </div>
 </div>
 
@@ -59,9 +74,10 @@
 
 <div class="row">
 
-<div class="col-md-4" id="yay"><p>Your Opponent</p> </div>
+  <div class="col-md-3"></div>
+  <div class="col-md-6" id="yay"><p>Your Opponent</p> </div>
+  <div class="col-md-3"></div>
 
-<div class="col-md-8"></div>
 </div>
 
 
@@ -72,24 +88,24 @@
 <div class="col-xs-4 col-md-4"></div>
 </div>
 
+
+<h4 class="text-center">Enemy Score: <span id="enemypoints"></span></h4>
+
+
 <div class="row">
 <div class="col-xs-4 col-md-4"></div>
 <div id="computerPick" class="col-xs-4 col-md-4"></div>
 <div class="col-xs-4 col-md-4"></div>
 </div>
 
-
 <div id="yourmama"></div>
 
-
-
 <div class="row">
-<div class="col-xs-4 col-md-4"></div>
-<div class="col-md-4 col-xs-4" id="opm8"></div>
-<div class="col-xs-4 col-md-4"></div>
-
-
+  <div class="col-xs-4 col-md-4"></div>
+  <div class="col-md-4 col-xs-4" id="opm8"></div>
+  <div class="col-xs-4 col-md-4"></div>
 </div>
+
 
 
 <script src="js2/script.js"></script>

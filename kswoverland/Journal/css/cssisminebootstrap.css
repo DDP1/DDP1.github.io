@@ -44,3 +44,16 @@ body {
 #uuu{
     text-align: center;
 }
+
+#nav {
+  background-color: #0B615E;
+  text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#home {
+    color: #A2E0E6;
+}

@@ -1,0 +1,67 @@
+body{
+	background-color: #9A9999;
+}
+#buttonDiv{
+	text-align: center;
+}
+#compHand{
+	height: 250px;
+	width: 250px;
+	margin: 0px;
+}
+#usrHand{
+	height: 250px;
+	width: 250px;
+	float: right;
+}
+#displayScore{
+	text-align: center;
+}
+#scoreBox{
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	width: 110px;
+	margin: auto;
+	margin-top: 5px;
+}
+#nav ul{
+	list-style: none;	
+}
+#nav a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+img{
+	display: block;
+}
+h1{
+	text-align: center;
+}
+#journalHead {
+	margin: 90px;
+	padding: 10px;
+}
+p{
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+.journalEntry {
+	background-color: #A23515;
+}
+.journalEntry h2{
+	text-align: center;
+}
+hr {
+	color: black;
+}
+#choose{
+	padding: 5px;
+	float: center;
+	margin: auto;
+	height: 75px;
+	width: 75px;
+}

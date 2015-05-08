@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rock,Paper,Scissors</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Rock, Paper, Scissors</h1>
+	<div class="dropdown">
+	  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Rock, Paper, Scissors
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	  	<li><a href="index.html">Rock, Paper, Scissors</a></li>
+		<li><a href="journal.html">Journal</a></li>
+		<li><a href="about.html">About</a></li>
+	  </ul>
+	</div>
+	<div id="buttonDiv"><button id="playButton">Play</button></div>
+	
+	<div class="row">
+		<img id="compHand" class="col-xs-5" src="">
+		<div class="col-xs-2">
+		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
+		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-paper-icon.png">
+		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+		</div>
+		<img id="usrHand" class="col-xs-5" src="">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

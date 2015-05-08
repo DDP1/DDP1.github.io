@@ -1,0 +1,76 @@
+
+body {
+	
+	font-size: 100%;
+	text-decoration: bold;
+	background-image: url(http://www.attikainternational.com/xml/cache/mceimages/Himalayas.jpg);
+	color: white;
+}
+
+
+
+button{
+	border-radius: 20px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+.heading{
+	text-align: center;
+	border-radius: 0px;
+	border: solid black 5px;
+	padding: 0px 0% 0px 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: grey;
+}
+
+
+#playerMove{
+	border: solid black 5px;
+	border-radius: 100px;
+	margin: 10px 10px 10px 10px;
+	background-color: grey;
+	text-align: center
+}
+
+
+#computerMove{
+	border: solid black 5px;
+	border-radius: 100px;
+	margin: 10px 10px 10px 10px;
+	background-color: grey;
+	text-align: center;
+}
+
+
+#playerChoice{
+	border: solid black 5px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	background-color: grey;
+	text-align: center;
+}
+
+
+
+#computerChoice{
+	border: solid black 5px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	background-color: grey;
+	text-align: center;
+}
+
+#pics{
+	height: 300px;
+	width: 300px;
+	border-radius: 5px;
+	border: solid black  5px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}

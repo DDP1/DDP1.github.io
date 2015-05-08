@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="DAZ">
+		<title>RPSLS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div id="userSide" onClick = "runTheGame()">
+			<img id="yourChoice"src="images/blank.png">
+		</div>
+
+		<div id="computerSide">
+			<img id="theirChoice" src="images/blank.png">
+		</div>
+		<div id="choiceBox" class="row">
+			<div onClick = "changeRock()" class="choiceDiv" id="rockChoice" class="col-xs-5">
+				<img class="choices" src="images/Rock.png">
+			</div>
+			<div onClick = "changePaper()"class="choiceDiv" id="paperChoice" class="col-xs-5">
+				<img class="choices" src="images/Paper.png">
+			</div>
+			<div onClick = "changeScissors()"class="choiceDiv" id="scissorsChoice" class="col-xs-5">
+				<img class="choices" src="images/Scissors.png">
+			</div>
+			<div onClick = "changeLizard()"class="choiceDiv" id="lizardChoice" class="col-xs-5">
+				<img class="choices" src="images/Lizard.png">
+			</div>
+			<div onClick = "changeSpock()"class="choiceDiv" id="spockChoice" class="col-xs-5">
+				<img class="choices" src="images/Spock.png">
+			</div>
+		</div>
+		<script src="js/scripts.js"> </script>
+
+	
+	</body>
+</html>

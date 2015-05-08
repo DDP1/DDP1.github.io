@@ -1,24 +1,30 @@
 body{
 	background-image: url("http://p1.pichost.me/i/5/1282860.jpg");
+	text-decoration:white;
 }
 
 #Pbox{
 	border:solid black 2px;
 	background-color: white;
-	height:700px;
+	height:900px;
 	padding:5px;
-	position: absolute;
-	width:300px;
-	
 }
 #Cbox{
 	border:solid black 2px;
-	background-color: grey;
-	height:150px;
+	background-color: white;
+	height:500px;
 	padding:5px;
-	width:300px;
-	
 }
 #clear{
 	clear
+}
+
+.img{
+	height:230px;
+	width: 300px;
+}
+
+#choice{
+	height:400px;
+	width:400px;
 }
