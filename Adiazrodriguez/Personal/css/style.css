@@ -26,29 +26,8 @@ body{
 
 /*******Navigation********/
 
-.navigation li a:hover{
-	background-color: black;
-}
-/****Largest Nav box******/
-.navigation{
-	border:solid black 10px;
-	border-radius: 20px;
-	padding: 30px;
-	list-style: none;
-	background-color: #1C56DA;	
-	text-align: center;
-}
-
-.navigation li a{
-	text-decoration: none;
-	background-color: #4271DE;
-	color: white;
-	border: solid black 2px;
-	border-radius: 10px;
-	padding: 5px;
-	width: 20%;
-	float: left;
-	text-align: center;
+.navbar-default{
+	background-color:#1C56DA; 
 }
 
 /*******Images*******/
