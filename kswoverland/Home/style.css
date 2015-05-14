@@ -6,10 +6,17 @@
 
 form {
 	margin-top: 20px;
-	color: #A2E0E6;
+	color: #000080
 }
 
 #home {
 	color: #A2E0E6;
 }
+
+#jason {
+	color: black;
+}
   
+ #formtitle {
+ 	margin: 0px;
+ }
