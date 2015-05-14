@@ -2,6 +2,7 @@ var userChoice;
 var compChoice;
 var randomNum;
 var picture;
+var name;
 
 function playerRock() {
 
