@@ -1,6 +1,7 @@
 #nav {
   background-color: #000909;
   text-align: center;
+  text-decoration: none;
 
 }
 
@@ -23,3 +24,7 @@ form {
 
  body {
     background-color: #04B4AE;
+}
+#uiop {
+	margin-bottom: 10px;
+}
