@@ -21,17 +21,25 @@
 		<li><a href="about.html">About</a></li>
 	  </ul>
 	</div>
-	<div id="buttonDiv"><button id="playButton">Play</button></div>
-	
 	<div class="row">
-		<img id="compHand" class="col-xs-5" src="">
-		<div class="col-xs-2">
-		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
-		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-paper-icon.png">
-		<img id="choose" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+		<div class="col-xs-5">
+		<img id="usrHand" src="">
+		<p class="RPSLabel">You</p>	
 		</div>
-		<img id="usrHand" class="col-xs-5" src="">
+		
+		<div class="col-xs-2">
+		<img class="choose" onclick= "usrRock()" src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
+		<img class="choose" onclick= "usrPaper()" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-paper-icon.png">
+		<img class="choose" onclick= "usrScissors()"src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+		<p class="RPSLabel">Choose one</p>
+		</div>
+		
+		<div class="col-xs-5">
+		<img id="compHand" src="">
+		<p class="RPSLabel">Opponent</p>
+		</div>
 	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>

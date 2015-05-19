@@ -1,10 +1,27 @@
-document.getElementById("playButton").addEventListener("click",playGame);
-var score = 0;
-function playGame (argument) {
-	var usrResponse = prompt("Rock, Paper, or Scissors?").toUpperCase();
-	var compResponse = Math.floor((Math.random() * 3) + 1);
-	
+var score = 0;	
+var usrResponse;
 
+function usrRock () { 
+	usrResponse = "ROCK";
+	playGame();
+	console.log(usrResponse);
+	}
+function usrPaper () { 
+	usrResponse = "PAPER";
+	playGame();
+	console.log(usrResponse);
+	}
+function usrScissors () { 
+	usrResponse = "SCISSORS";
+	playGame();
+	console.log(usrResponse);
+	}
+
+function playGame () {
+
+	console.log("the game is starting");
+
+	var compResponse = Math.floor((Math.random() * 3) + 1);
 	//1 is rock, 2 is paper, 3 is scissors
 	if (usrResponse == "ROCK" && compResponse == "1") {
 		alert('You tie!');
@@ -49,9 +66,8 @@ function playGame (argument) {
 	} else{
 		document.getElementById("usrHand").src = "http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png"
 	};
-	document.getElementById("displayScore").innerHTML = score;
 	console.log(usrResponse);
 	console.log(compResponse);
-	console.log(score)
+	console.log(score);
 };
 

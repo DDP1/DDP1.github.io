@@ -8,11 +8,17 @@ body{
 	height: 250px;
 	width: 250px;
 	margin: 0px;
+	padding: 16.66px;
+	border-radius: 125px;
+	background-color: #FF7400;
 }
 #usrHand{
 	height: 250px;
 	width: 250px;
-	float: right;
+	margin: 0px;
+	padding: 16.66px;
+	border-radius: 125px;
+	background-color: #FF7400;
 }
 #displayScore{
 	text-align: center;
@@ -49,6 +55,10 @@ p{
 	margin-top: 80px;
 	margin-left: 10px;
 }
+.RPSLabel{
+	margin: auto; 
+	text-align: center;
+}
 .journalEntry {
 	background-color: #A23515;
 }
@@ -58,10 +68,12 @@ p{
 hr {
 	color: black;
 }
-#choose{
+.choose{
 	padding: 5px;
 	float: center;
 	margin: auto;
 	height: 75px;
 	width: 75px;
+	border-radius: 37.5px;
+	background-color: #FF7400;
 }
