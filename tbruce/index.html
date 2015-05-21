@@ -9,17 +9,19 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>Rock, Paper, Scissors</h1>
-	<div class="dropdown">
-	  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	    Rock, Paper, Scissors
-	    <span class="caret"></span>
-	  </button>
-	  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-	  	<li><a href="index.html">Rock, Paper, Scissors</a></li>
-		<li><a href="journal.html">Journal</a></li>
-		<li><a href="about.html">About</a></li>
-	  </ul>
+	<div class="pageTop">
+		<h1>Rock, Paper, Scissors</h1>
+		<div class="dropdown">
+		  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Rock, Paper, Scissors
+		    <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+		  	<li><a href="index.html">Rock, Paper, Scissors</a></li>
+			<li><a href="journal.html">Journal</a></li>
+			<li><a href="about.html">About</a></li>
+		  </ul>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-5">
@@ -39,7 +41,12 @@
 		<p class="RPSLabel">Opponent</p>
 		</div>
 	</div>
-
+	<div class="row">
+		<div class="col-xs-12">
+			<p  class="boxes"id="scoreBox"></p>
+			<p class="boxes"id="outcomeBox"></p>
+		</div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>

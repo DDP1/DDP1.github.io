@@ -1,24 +1,30 @@
 body{
 	background-color: #9A9999;
 }
+.pageTop{
+	background-image: url("photos/christopher-nolan.jpeg");
+	height: 150px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
 #buttonDiv{
 	text-align: center;
 }
 #compHand{
 	height: 250px;
 	width: 250px;
-	margin: 0px;
 	padding: 16.66px;
 	border-radius: 125px;
 	background-color: #FF7400;
+	margin: auto;
 }
 #usrHand{
 	height: 250px;
 	width: 250px;
-	margin: 0px;
 	padding: 16.66px;
 	border-radius: 125px;
 	background-color: #FF7400;
+	margin: auto;
 }
 #displayScore{
 	text-align: center;
@@ -45,6 +51,7 @@ img{
 }
 h1{
 	text-align: center;
+	color: gray;
 }
 #journalHead {
 	margin: 90px;
@@ -59,10 +66,17 @@ p{
 	margin: auto; 
 	text-align: center;
 }
+.boxes{
+	margin: auto;
+	text-align:center;
+}
 .journalEntry {
-	background-color: #A23515;
+	background-color: #FF7400;
 }
 .journalEntry h2{
+	text-align: center;
+}
+.journalEntry p{
 	text-align: center;
 }
 hr {
@@ -76,4 +90,7 @@ hr {
 	width: 75px;
 	border-radius: 37.5px;
 	background-color: #FF7400;
+}
+.dropdown{
+	margin: 10px;
 }
