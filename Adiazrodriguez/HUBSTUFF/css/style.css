@@ -18,3 +18,23 @@ body{
 	color: white;
 	border: solid 3px;
 }
+
+.boxes{
+	border: solid 3px;
+	border-color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+.empty{
+	height: 10px;
+}
+
+.pics{
+	height: auto;
+	width: auto;
+}
+
+.radio{
+	margin-left: 20px;
+}
