@@ -38,3 +38,7 @@ body{
 .radio{
 	margin-left: 20px;
 }
+
+input{
+	color: black;
+}
