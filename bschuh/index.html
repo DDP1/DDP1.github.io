@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Grid Practice</title>
+    <title>Home</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,55 +19,157 @@
     <![endif]-->
   </head>
   <body>
-    <div class ="container">
 
-      <div class="row">
-       <div class="col-xs-12">
-          <h1 class="text-center">Grid Practice</h1>
-        </div>
+    <div id="h1">
+      <h1>Brandy Schuh's Website</h1>
+    </div>
+
+<!--MASTERNAVBAR!!!USETHIS-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Resources.html">Resources<span class="sr-only">(current)</span></a></li>
+        <li><a href="About.html">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Journal <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Feb2015.html">February</a></li>
+            <li class="divider"></li>
+            <li><a href="Mar2015.html">March</a></li>
+            <li class="divider"></li>
+            <li><a href="Apr2015.html">April</a></li>
+            <li class="divider"></li>
+            <li><a href="May2015.html">May</a></li>
+            <li class="divider"></li>
+            <li><a href="Jun2015.html">June</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="RPS.html">GAME</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    <div id="clear">
+    </div>
+
+  <div class="container">  
+    <div class="row">
+      <div class="col-xs-6"> 
+    <img class="img-responsive" id="catHat"  src="Pictures/catHat.jpg" alt="catHat">
+      </div>
+
+    <div class="col-xs-6">
+    <img class="img-responsive" id="roses"  src="Pictures/roses.jpg" alt="roses">
+      </div>
+
+    <div class="col-xs-6">
+      <img class="img-responsive" id="blackWhite"  src="Pictures/blackWhite.jpg" alt="blackWhite">
+    </div>
+
+    <div class="col-xs-6">
+      <a href="http://skyphotorim.tumblr.com/">
+        <img class="img-responsive" id="skyPhoto" src="Pictures/Skyphoto.jpg" alt="Skyedit">
+      </a>
+    </div>
+
+
+
+    <!--FORMS STUFF-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Forms Questions
+    </button>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Form Questions!</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">First name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter first name">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputPassword1">Last name</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter last name">
+            </div>
+
+            <div class="radio">
+              <h3>Select gender</h3>
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Female
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                 Male
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                 Other
+                </label>
+              </div>
+
+          <h3>Favorite Videogame?</h3>
+            <select class="form-control">
+              <option>Select one</option>
+              <option>Fallout 3</option>
+              <option>Skyrim</option>
+              <option>Heroes of the storm</option>
+              <option>Tomb Raider</option>
+              <option>Call of duty</option>
+              <option>Bioshock</option>
+              <option>Counterstrike Global Offensive</option>
+              <option>Grand Theft Auto</option>
+              <option>League of Legends</option>
+              <option>Wolfenstein</option>
+              <option>I dont play videogames</option>
+              <option>Not on list</option>
+            </select>
+
+            <h3>Comment box</h3>
+            <h5>Tell me what you think!</h5>
+            <textarea class="form-control" rows="3"></textarea>
+
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
+  </div>
+</div>
+ <!-- END-->
   
-        
-        <div class= "row">
-          <div class="col-md-4"><p class="text-primary">Lorem ipsum dolor sit amet, has eu delectus electram, ei veniam lucilius torquatos sea. Impetus corpora cu vel, consulatu honestatis mediocritatem te his. Debitis referrentur an vis, vim modus dissentiunt id. Adhuc graece ornatus cum ut, albucius electram cu usu. Doming cotidieque repudiandae id est</p></div>
-
-          <div class="col-md-4"><p class="text-info">Id sit enim homero alterum, an quo regione euripidis evertitur. An per modus aeque oblique, in esse legere cum. Vitae iudicabit sit cu, mundi tollit eam te, mei accumsan evertitur liberavisse et. Iisque incorrupte pro cu, eam eruditi placerat complectitur ea. Nam enim atqui verterem at.</p></div>
-
-          <div class="col-md-4"><p>Mel quas labitur accumsan ei, cum mnesarchum voluptatibus id. Ea sint illud eam, an decore imperdiet est. Eam virtute eloquentiam an. No simul omittam ius, ut mea lorem neglegentur voluptatibus, eos eu solum persequeris.</p></div>
-        </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-xs-3"><img class="img-circle" src="http://www.businessinsider.com/image/4f3433986bb3f7b67a00003c/cute-cat.jpg"></div>
-      <div class="col-xs-3"><img class="img-responsive" src="http://cdn.cutestpaw.com/wp-content/uploads/2013/12/Most-Famous-Felines-034.jpg"></div>
-      <div class="col-xs-3"><img class="img-responsive" src="http://images.wisegeek.com/young-calico-cat.jpg"></div>
-      <div class="col-xs-3"><img class="img-responsive" src="http://www.ieeehomelandsecurity2007.org/wp-content/uploads/2014/01/kisyu.jpg"></div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-xs-6"><p>Nec veri evertitur ea, eam illum salutandi at, et vim tibique minimum pertinax. Deserunt dissentiunt vis an, ei est nisl saperet forensibus. Id porro maiorum eam, pro cibo urbanitas dissentias te. Cu sonet hendrerit expetendis sea, te mei modus tation. Qui omnis pertinax ex, in veri putant prompta quo, ne liber everti usu. Sed denique mandamus gubergren an.</p></div>
-       <div class="col-xs-6"><p>Saepe electram in sed, ex pri delenit adipiscing. Corpora delectus pro no, eu iudico referrentur est, suas verterem id quo. Quo corrumpit dissentias quaerendum et, deserunt intellegat vix in. Cum habeo ullamcorper ad, ius nominavi patrioque an. Postea numquam appellantur an nam, his no altera convenire interesset.</p></div>
-    </div>
-
-    <hr>
-
-    <button type="button" class="btn btn-info btn-lg">Button</button>
-    <button type="button" class="btn btn-primary btn-lg">Button</button>
-
-   
-    
-
-
-
-
-
-
-
-
-
+    <footer>
+      <p>Site created by Brandy</p>
+    </footer>
 
 
 
@@ -75,5 +178,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/indexScripts.js"></script>
   </body>
 </html>
