@@ -1,3 +1,6 @@
+p {
+   font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 #nav {
   background-color: #000909;
   text-align: center;
@@ -12,3 +15,7 @@ form {
 
 body {
     background-color: #04B4AE;
+}
+#rood {
+	text-align: center;
+}
