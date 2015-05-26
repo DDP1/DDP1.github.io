@@ -1,0 +1,153 @@
+body { 
+	background-color: #FF7100;
+}
+h1 {
+	color: #FF7100;
+}
+p {
+	font-size: 150%;
+	text-indent: 50px;
+}
+#scopes {
+	background-image: url(http://media1.giphy.com/media/fVKnL9kiRfGGk/giphy.gif);
+}
+#trip {
+	background: url(http://media.giphy.com/media/armpKTcxYqWjK/giphy.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#facebook {
+	border: outset #00CCFF 5px;
+	background-color: #00CCFF;
+}
+#snoopdog iframe{
+	max-width:100%; 
+	max-height:100%;
+	margin:auto;
+	display:block;
+	border: inset #FF0000;
+}
+#equalizer {
+	margin:auto;
+	width: 960px; 
+	height: 540px;
+	display:block;
+	border: outset #000000;
+}
+#Ultimate {
+	margin:auto;
+	width: 320px;
+	height: 180px;
+	display:block;
+	border: outset #000000;
+}
+#ulti {
+	width: 320px;
+	height: 180px;
+}
+#rumble {
+	margin:auto;
+	width: 240px; 
+	height: 240px;
+	display:block;
+	border: outset #000000;
+}
+#title {
+	border: outset #FF3300;
+	background-color: #FF3300;
+	text-align: center;
+	border-top-width: 15px;
+}
+#vice {
+	width: 143px;
+}
+#president {
+	width: 115px;
+}
+#kerbe {
+	width: 200px;
+	height: 200px;
+}
+#noscope{
+	width: 295px;
+}
+#trippy{
+	width: 170px;
+}
+#snoop{
+	width: 500px;
+	height: 243px;
+}
+#Doghouse{
+	width: 180px;
+	height: 90px;
+}
+.javi{
+	width: 960px;
+	height: 540px;
+}
+#rmble{
+	width: 240px;
+	height: 240px;
+}
+#kirby{
+	width: 200px;
+	height: 200px;
+}
+#Hell {
+	text-align: center;
+	font-size: 500%;
+	font-family:Impact;
+	font-style: inherit;  
+	color: #FF4719;
+}
+#annie {
+	width: 200px;
+}
+#animation {
+	background-image: url(http://media.giphy.com/media/QM9qudxRt8jgA/giphy.gif);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#origin {
+	width: 175px;
+}
+.links {
+	border: groove #FF5A44;
+	background-color: #FF5A44;
+	float: left;
+}
+.links a {
+	text-decoration: none;
+}
+#makebig {
+	font-size: 680%;
+}
+#scam {
+	background-image: url(http://media1.giphy.com/media/6OWIl75ibpuFO/giphy.gif);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#lolscam {
+	text-align: center;
+	font-size: 200%;
+}
+#credit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#scamsrus{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#scammer {
+	text-align: center;
+}

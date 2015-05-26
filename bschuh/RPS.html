@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rock,Paper,Scissors</title>
+	</head>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<head>
+	
+		<header> 
+			<h1>Rock Paper Scissors!</h1>
+		</header>
+
+	</head>
+	<body> 
+
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Resources.html">Resources<span class="sr-only">(current)</span></a></li>
+        <li><a href="About.html">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Journal <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Feb2015.html">February</a></li>
+            <li class="divider"></li>
+            <li><a href="Mar2015.html">March</a></li>
+            <li class="divider"></li>
+            <li><a href="Apr2015.html">April</a></li>
+            <li class="divider"></li>
+            <li><a href="May2015.html">May</a></li>
+            <li class="divider"></li>
+            <li><a href="Jun2015.html">June</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="RPS.html">GAME</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+		<div id="Titlemoves">
+			<h2>Select your move</h2>
+		</div>
+
+		<!-- All RPS Pictures and the button that goes with them. -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<img id="rockPic" src="http://img2.wikia.nocookie.net/__cb20141120133208/epicrapbattlesofhistory/images/4/4b/A_Rock!.gif" alt="rock" class="img-responsive" class="img-rounded">
+					</div>
+					<div class="col-xs-6">	
+						<button id ="rock" class="btn btn-default" onClick="playerRock()">Rock</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<img id="paperPic" src="http://www.clker.com/cliparts/b/8/e/e/1206556249326967385nexxuz_Loose_Leaf_Paper.svg" alt="paper" class="img-responsive" class="img-rounded">
+				</div>
+					<div class="col-xs-6">
+						<button id ="paper" class="btn btn-default" onClick="playerPaper()">Paper</button>
+					</div>	
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<img id="scissorPic" src="http://www.clker.com/cliparts/d/b/d/6/11949839942140777322scissors.svg.hi.png" alt="scissor" class="img-responsive" class="img-rounded">
+				</div>
+					<div class="col-xs-6">
+						<button id ="scissor" class="btn btn-default" onClick="playerScissor()">Scissor</button>
+					</div>
+			</div>
+		</div>
+		
+
+		<footer>
+			<p>Site created by Brandy Schuh</p>
+		</footer>
+
+			  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/scripts.js"></script>
+  </body>
+</html>	

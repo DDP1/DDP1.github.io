@@ -1,0 +1,44 @@
+#heading {
+	border: black solid 5px;
+	padding: 10px;
+	background-color: #032221;
+	width: 750px;
+	text-align: center;
+	margin-left: 400px;
+}
+body {
+	background-color: #2CABA6;
+}
+h1 {
+	color: white;
+}
+#playerdiv {
+	border: black solid 5px;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 300px;
+	float: left;
+	background-color: #66DAD6;
+}
+#computerdiv {
+	border: black solid 5px;
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 150px;
+	background-color: #66DAD6;
+}
+h3 {
+	text-align: center;
+}
+button {
+	margin-left: 61px;
+}
+.pics {
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 50px;
+}

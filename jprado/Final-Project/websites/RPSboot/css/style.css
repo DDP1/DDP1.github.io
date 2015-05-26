@@ -1,0 +1,33 @@
+#heading {
+	border: black solid 5px;
+	padding: 10px;
+	background-color: #032221;;
+	text-align: center;
+	margin-top: 25px
+}
+body {
+	background-color: #2CABA6;
+}
+h1 {
+	color: white;
+}
+#playerdiv {
+	border: black solid 5px;
+	background-color: #66DAD6;
+	margin-top: 25px
+}
+h3 {
+	text-align: center;
+}
+button {
+	margin-left: 61px;
+}
+#computerdiv {
+	border: black solid 5px;
+	background-color: #66DAD6;
+	margin-top: 25px
+}
+.pics {
+	width: 200px;
+	height: 200px;
+}

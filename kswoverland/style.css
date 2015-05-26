@@ -1,3 +1,6 @@
+p {
+   font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 #nav {
   background-color: #000909;
   text-align: center;
@@ -27,4 +30,7 @@ form {
 }
 #uiop {
 	margin-bottom: 10px;
+}
+#rood {
+	text-align: center;
 }

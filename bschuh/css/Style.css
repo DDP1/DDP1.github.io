@@ -1,0 +1,99 @@
+#h1{
+	text-align: center;
+	border: solid rgba(218, 215, 215, 0.31);
+	border-radius: ;
+	background-color: rgba(181, 180, 180, 0.78) ;				/*Top of all pages*/
+}
+body{
+	background-color: rgba(13, 13, 26, 0.81);
+}
+p{
+	color: black;
+}
+#clear{
+	clear: both;
+}
+#catHat{
+	width: 400px;
+	height: 350px;
+	border: solid rgba(249, 249, 249, 0.23) 5px;					/*For pictures on INDEX*/
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#roses{
+	width: 400px;
+	height: 350px;
+	border: solid rgba(249, 249, 249, 0.23) 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+#blackWhite{
+	width: 400px;
+	height: 350px;
+	border: solid rgba(249, 249, 249, 0.23) 5px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#skyPhoto{
+	width: 400px;
+	height: 350px;
+	border: solid rgba(249, 249, 249, 0.23) 5px;						/*To here!*/
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.about{
+	text-align: center;
+	border: solid rgba(218, 215, 215, 0.31) 5px;
+	background-color: rgba(181, 180, 180, 0.78);
+	font-size: 2em;
+}
+.text{
+	text-align: center;
+	border: solid rgba(218, 215, 215, 0.31);
+	padding: 45px;
+	background-color: rgba(181, 180, 180, 0.78);
+}
+
+hr{
+	border-color: black;
+}
+
+#resourcesLinks{
+	list-style: none;
+	text-decoration: none;											/*Resources page links*/
+	font-size: 200%;
+}
+#resourcesLinks a:hover{
+	color: black;
+	font-size: 2em;
+
+}
+#resourcesLinks a{
+	color: #619ED3;
+}
+
+#journalTitle{																/*Journal stuff*/
+	text-align: center;
+	font-size: 2em;
+	text-decoration: underline;
+}
+																	
+.journalWrapper {
+	border: solid rgba(218, 215, 215, 0.31) 10px;
+	border-radius: 10px;
+	background-color: rgba(181, 180, 180, 0.78);
+	width: 85%;
+	padding: 10px;
+	margin: 20px auto;
+}
+button{
+	margin-top: 50px;
+	margin-left: 37%;
+}
+footer{
+	bottom: 0px;
+}

@@ -1,5 +1,5 @@
-marquee {
-	font-size: 100px;
+p {
+   font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #weapon {
 	font-size: 50px;
@@ -69,4 +69,7 @@ form {
 
 #home {
     color: #A2E0E6;
+}
+#rood {
+    text-align: center;
 }

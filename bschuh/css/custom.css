@@ -1,0 +1,50 @@
+header{
+	border-radius: 10px;
+	border: solid rgba(147, 140, 140, 0.1) 10px;
+	text-align: center;
+	background-color: rgb(66, 66, 74);
+	margin: 10px;
+	margin-bottom: 10px;
+}
+body{
+	background-color: rgba(13, 13, 26, 0.81);
+}
+#Titlemoves{
+	border: solid  rgba(147, 140, 140, 0.1)  10px;
+	border-radius: 10px;
+	text-align: center;
+	width: 400px;
+	background-color: rgb(66, 66, 74);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+#paperPic{
+	background-color: white;
+}
+.img-responsive{
+	display: block;
+	margin-top: 10px;
+	height:150px;
+	width:auto; 
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+.row{
+	border: solid black 5px;
+	border-radius: 5px;
+	background-color: rgb(45, 45, 52);
+	width: 500px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	margin-right: auto;
+}
+/*#clear{
+	clear: both; Just incase I need a clear..
+}*/
