@@ -1,0 +1,82 @@
+#header {
+	border: black solid 5px;
+	background-color: #440467;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+}
+#navigation {
+	margin-left: 10px;
+}
+#navigation li a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	border: 5px black solid;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 200px;
+	border-radius: 30px;
+	background-color: #440467;
+	color: white;
+}
+#navigation li a:hover{
+	background-color: #964AC0;
+}
+ul {
+	list-style-type: none;
+}
+body {
+	background-color: #964AC0;
+}
+.pics {
+	width: 400px;
+	height: 250px;
+	border: solid black 5px;
+	margin-right: 50px;
+}
+#images {
+	border: black solid 5px;
+	background-color: #8327B5;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 125px;
+}
+footer {
+	color: white;
+	margin-top: 50px;
+}
+p {
+	color: white;
+	font-size: 150%;
+	text-indent: 50px;
+}
+#codehelphead {
+	text-indent: 50px;
+	margin-top: 75px;
+}
+#source li a{
+	text-decoration: none;
+	font-size: 200%;
+	color: #570684;
+}
+#BinoParagraph {
+	margin-top: 100px;
+}
+#firstjournal {
+	border: black solid 5px;
+	padding: 15px;
+	background-color: #B16FD5;
+	margin-top: 100px;
+}
+.journaldivs {
+	border: black solid 5px;
+	padding: 15px;
+	background-color: #B16FD5;
+	margin-top: 25px;
+}

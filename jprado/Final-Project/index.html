@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Website Hub</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Home</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="websites/Journal/journal.html">Journal</a></li>
+          <li><a href="websites/Mainwebsite/Project1_911.html">Main Website</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Etc Websites<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="websites/RPSorig/index.html">Rock Paper Scissors Original</a></li>
+              <li><a href="websites/RPSboot/index.html">Rock Paper Scissors Bootstrapped</a></li>
+              <li class="divider"></li>
+              <li><a href="websites/BootstrapBino/index.html">First Bootstrap</a></li>
+              <li class="divider"></li>
+              <li><a href="websites/Rainbow/rainbow.html">Rainbow Randomness</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+    <div class="row">
+      <div class="col-md-4"><img src="pictures/osu.png" class="img-responsive" id="osu" alt="osu"></div>
+      <div class="col-md-4"><img src="pictures/Dota2.jpg" class="img-responsive" id="dota" alt="Dota2"></div>
+      <div class="col-md-4"><img src="pictures/csgo.png" class="img-responsive" id="csgo" alt="csgo"></div>
+    </div>
+
+  <br>
+
+  <h1 class="bold">About me</h1>
+
+  <p class="lead">Since this is the internet and I prefer to remain anonymous you can call me One White Child. I spend most of my time hanging out with friends and playing competitive video games. In certain places I am a casual gamer but others I am hardcore like League of Legends, Dota 2, and CS GO. Due to my father being a self taught computer programmer I grew up around computers a lot. This inspired me to take this coding class. I also make techno music using an M-Audio keyboard running through the Ignite Software on my computer. This music gets uploaded to soundcloud for friends and family to see. I hope one day I can pair up with Monstercat to release one of my pieces. I designed this site based off Video Games and the material required to be in it. The evolution can be seen of my learning as everything I have learned throughout the year is featured on this site. The feature I am most proud of is my Main Website because it allowed me to channel my creativity through it as future projects were more about sticking to guidelines. Good Luck and Have Fun!
+  <h1 class="bold">Try some forms</h1>
+
+      <form action="action" name="emailform">
+      <div class="form-group">
+        <label for="nameEmailInput">Name</label>
+        <input type="text" id="nameEmailInput" placeholder="John Michael" name="username">
+      </div>
+      <div class="form-group">
+        <label for="mailEmailInput">Email</label>
+        <input type="text" id="mailEmailInput" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" name="emailsubmit">Send invitation</button>
+    </form>
+
+    <div id="results">
+
+    </div>
+
+    <input id="czechbox" type="checkbox" name="c1" onclick="showMe('checkmate')">Czech Box
+
+    <div id="checkmate">
+      <p>Thanks for the check m8.</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
