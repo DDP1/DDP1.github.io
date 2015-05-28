@@ -34,10 +34,14 @@ body{
 	border: solid black 5px;
 	border-radius: 5px;
 	background-color: rgb(45, 45, 52);
-	width: 500px;
+	width: 465px;
 	height: 180px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.container{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 button{
 	margin-top: 25px;
