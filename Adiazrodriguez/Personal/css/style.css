@@ -6,9 +6,6 @@ h2{
 
 body{
 	background-image: url(http://slowbuddy.com/wp-content/gallery/plain-background/4567766846.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	color: white;
 }
 
@@ -27,8 +24,7 @@ body{
 	background-color: #1C56DA;
 }
 
-/*******Navigation********/
-
+/****Largest Nav box******/
 .navbar-default{
 	background-color:#1C56DA; 
 }
@@ -91,38 +87,12 @@ body{
 	width: 500px;
 }
 
-/*******Videos******/
-
-#lolvids{
-	height: 200px;
-	width: 490px;
-	margin: 0px 50px 0px 120px;
+.vidPic{
+	height: 150px;
+	width: 350px;
+	margin-left: 12%;
 }
 
-
-#codvids{
-	height: 200px;
-	width: 650px;
-	margin: 0px 50px 0px 120px;
-}
-
-#nbavids{
-	height:300px;
-	width: 600px;
-	margin: 0px 50px 0px 100px;
-}
-
-#titanfallvids{
-	height: 250px;
-	width: 600px;
-	margin:10px 0px 0px 50px;
-}
-
-iframe{
-	margin: 20px 50px 20px 55px;
-	border: solid black;
-
-}
 
 .empty{
 	height: 10px;
