@@ -14,6 +14,9 @@
 
 body{
 	background-image: url(http://slowbuddy.com/wp-content/gallery/plain-background/4567766846.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 
