@@ -48,22 +48,6 @@ body {
     text-align: center;
 }
 
-#prock{
-    background-image: url('rock3.png');
-    height: 350px;
-    width: 300px;
-}
-
-#ppaper{
-    background-image: url('paper3.png');
-    height: 350px;
-    width: 300px;
-}
-
-#pscissors{
-    background-image: url('scissors3.png');
-    height: 350px;
-}
 
 #nav {
   background-color: #0B615E;
