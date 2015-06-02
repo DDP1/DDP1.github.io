@@ -1,0 +1,20 @@
+.biteme {
+	width:300px;
+	height:200px;	
+	border: solid black 2px;
+	background-color: rbg(randColor[0],randColor[1],randColor[2]);
+	text-align: center;
+	margin:auto;
+}
+.content {
+	width:500px;
+	height:500px;
+}
+body {
+	text-align: center;
+}
+img {
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
