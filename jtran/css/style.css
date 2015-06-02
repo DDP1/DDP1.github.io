@@ -1,0 +1,96 @@
+img{
+	width: 200px;
+	height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+	text-align: center;
+}
+
+.button {
+   width: 70px; 
+   height: 30px;
+  }
+.gameWrapper{
+	width: 300px; 
+  	height: 30px; 
+  
+  	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#Announce{
+	text-align: center;
+	margin:auto;
+	padding: 3px;
+
+}
+
+#playerPick{
+	display: inline-block;
+	float: left;
+	margin: 50px;
+}
+#compPick{
+	display: inline-block;
+	float: right;
+	margin: 50px;
+}
+ body {
+ 	background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+ }
+
+#list li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  #list li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+#list a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+#list a:hover {
+   	background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+
+}
+
+#list a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+#list li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+#list ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+body{ 
+  color: red;
+}

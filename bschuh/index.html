@@ -106,39 +106,40 @@
         <h4 class="modal-title" id="myModalLabel">Form Questions!</h4>
       </div>
       <div class="modal-body">
-        <form>
+
+        <form name="example">
             <div class="form-group">
               <label for="exampleInputEmail1">First name</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter first name">
+              <input type="text" name="username" class="form-control" id="exampleInputEmail1" placeholder="Enter first name">
             </div>
             
             <div class="form-group">
               <label for="exampleInputPassword1">Last name</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter last name">
+              <input type="password" name="lastName" class="form-control" id="exampleInputPassword1" placeholder="Enter last name">
             </div>
 
             <div class="radio">
               <h3>Select gender</h3>
                 <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="Female" checked>
                   Female
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="Male">
                  Male
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="Other">
                  Other
                 </label>
               </div>
 
           <h3>Favorite Videogame?</h3>
-            <select class="form-control">
+            <select name="games" class="form-control">
               <option>Select one</option>
               <option>Fallout 3</option>
               <option>Skyrim</option>
@@ -156,17 +157,22 @@
 
             <h3>Comment box</h3>
             <h5>Tell me what you think!</h5>
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea name="comment" class="form-control" rows="3"></textarea>
 
-          </form>
+          
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+        <div id="result"></div>
+        
       </div>
+      </form>
     </div>
   </div>
 </div>
+
  <!-- END-->
   
     <footer>
