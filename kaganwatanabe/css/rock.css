@@ -1,0 +1,32 @@
+body{
+	background-color: black;
+}
+
+img{
+	
+	height: 600px;
+}
+
+#rock{
+	height: 400px;
+}
+#paper{
+	height: 400px;
+}
+#scissors{
+	height: 400px;
+}
+
+#rock img{
+	height: 400px;
+}
+#paper img{
+	height: 400px;
+}
+#scissors img{
+	height: 400px;
+}
+
+h1{
+	text-align: center;
+}

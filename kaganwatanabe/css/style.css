@@ -1,4 +1,30 @@
-img{
-	height: 200px;
-	width: 200px;
+.img-item{
+	margin: 0 auto;
+	max-width:458px;
+	max-height: 305px;
+	width: 100%;
+	height: auto;
+}
+.legos{
+	height: 400px;
+	width: 300px;
+}
+.dog{
+	height: 400px;
+	width: 300px;
+}
+.csgo{
+	height: 400px;
+	width: 300px;
+}
+
+body{
+	background-color: #000000;
+}
+h1{
+	text-align: center;
+}
+
+.aboutMe{
+	letter-spacing: 2.5px;
 }
