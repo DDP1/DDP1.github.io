@@ -1,3 +1,25 @@
 body{
-		background-color: black;
+	background: url(http://i.minus.com/ibu82W77AabNcL.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.red_box{
+	border: solid black 5px;
+	background-color: white;
+	color: black;
+}
+
+.title{
+	color: white;
+}
+
+.links{
+	color: orange;
+}
+
+.links:hover{
+	color: red;
 }

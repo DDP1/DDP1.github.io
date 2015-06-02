@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Roche, Papier, Ciseaux</title>
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/games.css" rel="stylesheet">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    
+    </head>
+
+		<body>
+			<div class="container">
+				<div id="firstContainer">
+				    <nav class="navbar navbar-default navbar-fixed-top">
+				      <div class="container">
+				      	<ul class="nav nav-pills">
+				      		<li role="presentation" class="active"><a href="index.html">Home</a></li>
+				        	<li role="presentation"><a href="journal.html">Journal</a></li>
+				            <li role="presentation"><a href="games.html">Games</a></li>
+				            <li role="presentation"><a href="form.html">Form</a></li>
+				        		<li role="presentation" class="dropdown">
+				        	    	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Everything<span class="caret"></span></a>
+				      	    	<ul class="dropdown-menu" role="menu">
+				                  <li role="presentation"><a href="index.html">Home</a> 
+				                  <li role="presentation"><a href="journal.html">Journal</a></li>
+				                  <li role="presentation"><a href="games.html">Games</a></li>
+				                  <li role="presentation"><a href="form.html">Form</a>
+				      	    	</ul>  
+				    		    </li>
+
+				    	</ul>
+					</nav>
+				</div>
+
+
+					<div class="row">
+				       <div class="col-xs-4"></div>
+				        <div class="col-xs-4">
+				          <h1>Rock, paper, or scissors?</h1>
+				        </div>
+				       <div class="col-xs-4"></div>
+				    </div>
+
+
+			<br>
+
+
+				    <div class="row">
+						<div class="col-xs-4"></div>
+				        <div class="col-xs-4">
+				          <button onClick="compare()">Who won?</button> 
+				        </div>
+				       <div class="col-xs-4"></div>
+					</div>
+
+
+			<br>
+
+
+					<div class="row">
+						<div class="col-xs-4"></div>
+				        <div class="col-xs-4">
+							<p id="computerResponse"></p> 
+				        </div>
+				        <div class="col-xs-4"></div>
+					</div>
+
+
+			<br>
+
+
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="http://ecx.images-amazon.com/images/I/51BKyEBL4HL._SL500_AA130_.jpg" onClick="playerRock()" alt="Rock" class="img-responsive rpsPics">
+						</div>
+						<div class="col-xs-4">
+							<img src="http://www.adorama.com/images/130x130/VBF5725M.jpg" onClick="playerPaper()" alt="Paper" class="img-responsive rpsPics">
+						</div>
+						<div class="col-xs-4">
+							<img src="http://ecx.images-amazon.com/images/I/41AhcO3XxoL._SL500_AA130_.jpg" onClick="playerScissors()" alt="Scissors" class="img-responsive rpsPics">
+						</div>
+						<div>
+							<script src="js/games.js"></script>
+						</div>
+					</div>
+
+
+
+			</div>
+
+			
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>	
+
+
+		</body>
+
+</html>

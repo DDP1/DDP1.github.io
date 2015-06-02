@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/stile.css">
+    <link href="css/Style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,20 +22,68 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-xs-12">
-        <h1 id="Main_Title">Alex Diaz Rodriguez Web Journal</h1>
+        <h1 class="title">Alex Diaz Rodriguez Web Journal</h1>
       </div>
     </div>
 
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="..">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.youtube.com/user/RandmepicProductions">Youtube<span class="sr-only"></a></li>
+        <li><a href="http://www.twitch.tv/randomepicdude">Twitch</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Github Sites <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Personal">Randomepicdude Productions</a></li>
+            <li><a href="RockPaperScissors">Rock Paper Scissors Game</a></li>
+            <li><a href="GridPractice">Grid Practice</a></li>
+            <li><a href="journal">Web Journal</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control text_entry" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/Randomepicdude">Github</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Repositories <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="https://github.com/Randomepicdude/Randomepicdude-Websites">Randomepicdude Sites</a></li>
+            <li><a href="https://github.com/DDP1/DDP1.github.io">DDP1 Coding Class</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
     <div class="row">
       <div class="col-md-6 col-xs-12">
-        <h4> February 19, 2015</h4>
+        <h4 class="title"> February 19, 2015</h4>
           <div class="red_box">
             <p>A string is a series of non-contructive content signified by quotes or double quotes.  Strings are used commonly for massages.  A variable is an items that hold a specified amount of information that can be called upon later.  A number is a numerical value used in calculations.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-xs-12">
-          <h4> February 23, 2015</h4>
+          <h4 class="title"> February 23, 2015</h4>
             <div class="red_box">
               <p>Today we learned and started using arrays in our javascript.  We were assigned a new javascript challenge having to do with asking the viewer what his or her favorite food is and then letting them know what they have inputed.</p>
             </div>
@@ -44,14 +92,14 @@
 
         <div class="row">
           <div class="col-md-6 col-xs-12">
-            <H4> MArch 3, 2015 </h4>
+            <H4 class="title"> MArch 3, 2015 </h4>
               <div class="red_box">
                 <p> Today we learned more uses for array and other ways to maipulate them using tools such as shifts, pop, unshift and push to change where certain values are added and removed.</p>
               </div>
             </div>
 
             <div class="col-md-6 col-xs-12">
-              <h4> March 12, 2015 </h4>
+              <h4 class="title"> March 12, 2015 </h4>
                 <div class="red_box">
                   <p>Today i continued work on the css of my projects and i will be styarting the javascript portion of the site next class.  I need to make some finishing touches to my boxes.</p>
                   </div>
@@ -60,14 +108,14 @@
 
               <div class="row">
                 <div class="col-md-6 col-xs-12">
-                  <h4> March 12, 2015 </h4>
+                  <h4 class="title"> March 12, 2015 </h4>
                     <div class="red_box">
                       <p>Today i continued work on the css of my projects and i will be styarting the javascript portion of the site next class.  I need to make some finishing touches to my boxes.</p>
                     </div> 
                   </div>
 
                   <div class="col-md-6 col-xs-12">
-                    <h4> April 16, 2015 </h4>
+                    <h4 class="title"> April 16, 2015 </h4>
                       <div class="red_box">
                         <p>Last Class we viewed websites to determine what styles they used and how their website supported mobile platforms.  I viwed The <a class="links" href="http://na.leagueoflegends.com/">league of legends website</a>, <a class="links" href="twitch.tv">Twitch.tv</a> and the <a class="links" href="http://www.microsoft.com/">microsoft website</a>.  Each had their goods and their bads.  Twitch contained a simple solor scheme of black white and purple and opted for a simple design that looks like it was for mobile.  THe way it optomized for mobile was really good and it was an easy to navigate site.  The league of legends site contained a very dark atmosphere and had a dynamic background that changes with the image displayed at the top of the page.  The website looked outdated but diplayed all recent information in a clear manner.  The microsoft site had a very professional look to iand had a simple scheme of white and grey.  It contained a clean look but fell short when the mobile version was intergrated.  There was no optimization for a phone other than the front page.  </p>
                       </div>
@@ -76,14 +124,14 @@
 
                   <div class="row">
                     <div class="col-md-6 col-xs-12">
-                      <h4> April 20, 2015 </h4>
+                      <h4 class="title"> April 20, 2015 </h4>
                         <div class="red_box">
                           <p>Today i finished my bootstrap grid project but i have not gotten it checked out yet.  I was properly able to optomise the site for desktop and mobile use the way our template displayed</P>
                         </div>
                       </div>
 
                       <div class="col-md-6 col-xs-12">
-                        <h4> May 11, 2015 </h4>
+                        <h4 class="title"> May 11, 2015 </h4>
                           <div class="red_box">
                             <p> TOday i continued work on adding navigation bars to the necessary sites and i also learned today that i am missing a lot of web journal entried which most likely means that i am going to lose a lot of points </p>
                           </div>
@@ -92,14 +140,14 @@
 
                       <div class="row">
                         <div class="col-md-6 col-xs-12">
-                          <h4> May 12, 2015</h4>
+                          <h4 class="title"> May 12, 2015</h4>
                             <div class="red_box">
                               <p> Today i learned how to create form in preparation for my hub form.  I also updated all of my github sites with a new navigation bar.  i also decided to remove the rock paper scissors game from my personal website.   All of these changes went live on github.  NExt class, assuming that jamieson dosent giv us anything new then i will finish bootstrapping my personal site and make it go live</p>
                             </div>
                           </div>
 
                           <div class="col-md-6 col-xs-12">
-                            <h4> May 15, 2015</h4>
+                            <h4 class="title"> May 15, 2015</h4>
                               <div class="red_box">
                                 <p> today i finish bootsptrapping 2 of my pagesd and got my videos to be reponsive. but ran into some issues along the way.  One of the problems was the tags i used.  I was sopposed to have a div but i didnt.
                                 </p>
@@ -109,14 +157,14 @@
 
                           <div class="row">
                             <div class="col-md-6 col-xs-12">
-                              <h4> May 18, 2015</h4>
+                              <h4 class="title"> May 18, 2015</h4>
                                 <div class="red_box">
                                   <p> today on this short monday i started my about section on my weeb hub and fixed the responsive videos.  I akso added the areas for the pictures to be linked and created text boxes for the hub.  Next class i will finish the about me, add the pictures and start the forms or finish the responsive videos for Call of Duty.</p>
                                 </div>
                               </div>
 
                               <div class="col-md-6 col-xs-12">
-                                <h4> May 19, 2015</h5>
+                                <h4 class="title"> May 19, 2015</h5>
                                   <div class="red_box">
                                     <P> TOday i completed my about me section and added the 4 pictures needed for the page.  I also started work on the HTML portion of the forms.  Next class i will need to finish the forms portion of the HTML at least but hopefully i can finish the whole forms project. After the forms project i will need to either bootstrap this journal page or i can finish bootstrapping my personal site.  either of thoses will take the same amount of time.</p>
                                   </div>
@@ -125,14 +173,14 @@
 
                               <div class="row">
                                 <div class="col-md-6 col-xs-12">
-                                  <h4> May 21,2015</h4>
+                                  <h4 class="title"> May 21,2015</h4>
                                     <div class="red_box">
                                       <p> Today i finished the html portion of my forms area.  I also made some changes to text entry in the bars.  Next class i will most likely get started on the javascript for the forms page and/or i will finish bootstrapping the last website.  i play to bootstrap and add this web journal near the end of the year in order to allow more focus to my bigger sites.</p>
                                     </div>
                                   </div>
 
                                   <div class="col-md-6 col-xs-12">
-                                    <h4> May 26, 2015 </h4>
+                                    <h4 class="title"> May 26, 2015 </h4>
                                       <div class="red_box">
                                         <p>Today the torture of forms is finally over.  With help from github i was able to complete the javascript for the forms section of the hub. There is little left to complete and should be comleted by next week.  That includes bootstrapping this journal and bootstrapping the last video pages of my personal site.  After that i will be free to explore more things with html and javascript. </p>
                                       </div>
@@ -141,7 +189,7 @@
 
                                   <div class="row">
                                     <div class="col-md-6 col-xs-12">
-                                      <h4> June 1, 2015</h4>
+                                      <h4 class="title"> June 1, 2015</h4>
                                       <div class="red_box">
                                         <p>TOday i finished the genreal bootstrapping of my web journal.  That is about all i did.  NExt class i will need to finihs the style of the website and start on the comments for my javascript</P>
                                       </div>
