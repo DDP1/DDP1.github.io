@@ -1,0 +1,17 @@
+#firstContainer{
+	margin-top: 50px;
+}
+
+body {
+	margin-top: 100px
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	margin: auto;
+}
+
+li {
+	margin-top: 5px;
+}

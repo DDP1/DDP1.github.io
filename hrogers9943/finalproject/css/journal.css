@@ -1,0 +1,32 @@
+#firstContainer{
+	margin-top: 50px;
+}
+
+body {
+	margin-top: 100px
+}
+
+li {
+	margin-top: 5px;
+}
+
+
+
+.journalEntry {
+	border: solid black 2px;
+	border-radius: 10px;
+	display: block;
+	text-align: center;
+	font-size: auto;
+}
+
+.journalEntry ul {
+	list-style: none;
+	}
+
+#toTop {
+	height: 30px;
+	margin: auto;
+	color: white;
+	text-align: center;
+}
