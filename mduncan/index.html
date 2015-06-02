@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  	<div id="banner">
+	<div class="row">
+	<div class="col-sm-6">
+		<h1><span id="site-title">Matthew Duncan</span><p class="lead">About Me</p></h1>
+		
+	</div>
+	</div>
+</div>
+
+   
+
+    <div class="container">     
+
+            
+          <div class="navbar-wrapper">
+            <div class="container">
+              <div class="navbar navbar-inverse navbar-static-top">
+                
+                  <div class="navbar-header">
+                <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </a>
+                  <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                    	<li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="rps_game.html">Rock Paper Scissors</a></li>
+                      <li><a href="Diary.html">Web journal</a></li>
+                
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">References: <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.ascendencestudios.com">Ascendence Studios</a></li>
+                          <li><a href="http://manuelsaurus.deviantart.com">Manuel's DevArt</a></li>
+                          <li><a href="http://fbth.deviantart.com">My DevArt</a></li>
+                          <li class="divider"></li>
+                          <li><a href="portfolio.html">Jared Gates Portfolio</a></li>
+                          <li><a href="#">Joe Thom's Portfolio</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <h2 id="timeTable" ></h2>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+
+<div class="container">
+<div class="row">
+	<div class="col-xs-12">
+		<h1>About Me <small>Short Biography &amp; A Few Pictures</small></h1>
+	</div>
+</div>
+<div class="media">
+	<div class="media-body">
+		<h4 class="media-heading">Why I chose Computer Coding</h4>
+		I knew Mr.Jamieson would be teaching the class, and I had really enjoyed being a student of his. He helped me a lot and whenever I was stumped and needed help, he was there. He was and is a very helpful and knowledgeable teacher. I had past experience in programming, about three years worth in Javascript and C#. I had programmed inside of Unity 3 and iterations afterward, and just recently Unreal Engine 4. During the summer in 2014 I joined the FHS App developers, I was learnign and going every other weekend to meetings before I had to stop going. During that time I learned HTML, CSS, PHP, and some Ruby due to courses I took at Codeacademy. I am currently developing the game Wrath Of The Goliaths: Dinosaurs, with my team at Ascendence Studios.
+	</div>
+</div>
+			<br></br>
+
+				<a id="commentBox"></a>
+				
+
+					<br></br>
+					<a>Comment:</a>
+					
+<form id="myForm"  method="post"> 
+    
+    <textarea name="comment" placeholder="Enter a comment here..." ></textarea> 
+    <input type="submit" value="Submit"  /> 
+</form>
+
+<br></br>
+
+
+<!-- To Edit -->
+
+	<div class="col-lg-10 col-lg-offset-1 text-center">
+                    
+                        
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <a>
+                                    <img class="center-block img-thumbnail" src="images/Carcha.jpg" alt="Dino">
+                                </a>
+                            </div>
+                        </div>
+				
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <a>
+                                    <img class="img-thumbnail" src="images/Carno.jpg" alt="Dino">
+                                </a>
+                            </div>
+                        </div>
+          
+ 
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <a>
+                                    <img class="img-thumbnail" src="images/StegoRender.jpg" alt="Dino">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+           
+			  				
+				<br><br>
+          
+
+    
+	
+	<!-- Modal -->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/timeScript.js"></script>
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
+ 
+    <script> 
+        // wait for the DOM to be loaded 
+        $(document).ready(function() { 
+            // bind 'myForm' and provide a simple callback function 
+            $('#myForm').ajaxForm(function() { 
+            	printComment($('#myForm'));
+                alert("Thank you for your comment!"); 
+            }); 
+        }); 
+    </script> 
+
+	<script src="js/formscript.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
