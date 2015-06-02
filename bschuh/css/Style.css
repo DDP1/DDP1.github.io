@@ -45,6 +45,9 @@ p{
 	margin-left: 0px;
 	margin-right: 10px;
 }
+#result{
+	text-align: center;
+}
 .about{
 	text-align: center;
 	border: solid rgba(218, 215, 215, 0.31) 5px;
