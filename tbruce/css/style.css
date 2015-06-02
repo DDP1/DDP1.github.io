@@ -5,7 +5,6 @@ body{
 	background-image: url("photos/christopher-nolan.jpeg");
 	height: 150px;
 	padding: 10px;
-	margin-bottom: 25px;
 }
 #buttonDiv{
 	text-align: center;
@@ -52,6 +51,7 @@ img{
 h1{
 	text-align: center;
 	color: gray;
+	font-size: 46px;
 }
 #journalHead {
 	margin: 90px;
@@ -71,9 +71,12 @@ p{
 	text-align:center;
 }
 .journalEntry {
-	background-color: #FF7400;
+	background-color: #FF7400;	
+	margin-left: 60px;
+	margin-right: 60px;
 }
 .journalEntry h2{
+
 	text-align: center;
 }
 .journalEntry p{
@@ -93,4 +96,23 @@ hr {
 }
 .dropdown{
 	margin: 10px;
+}
+.colorBar{
+	width: 35%;
+	height: 5px;
+	background-color: #91A437;
+}
+.colorBar2{
+	height: 10px;
+	background-color: #BBCD67;
+	margin-bottom: 25px;
+}
+.colorBar3{
+	width: 30%;
+	height: 5px;
+	background-color: #91A437;
+}
+.fromBike{
+	margin-left: 20px;
+
 }
