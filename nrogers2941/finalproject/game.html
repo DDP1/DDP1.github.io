@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<title> Rock, Paper, Scissors Game!</title>
+
+</head>
+
+<body>
+
+	<div class = "container">
+
+		<div class="row">
+				<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" href="index.html">Home</a>
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li class="active"><a href="game.html">Game <span class="sr-only">(current)</span></a></li>
+					        <li><a href="journal.html">Journal</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Everyhting <span class="caret"></span></a>
+					          <ul class="dropdown-menu" role="menu">
+					            <li><a href="index.html">Home</a></li>
+					            <li><a href="game.html">Game</a></li>
+					            <li><a href="journal.html">Journal</a></li>
+					            
+					          </ul>
+					        </li>
+					      </ul>
+					      
+					     </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid-->
+				</nav>
+			</div>
+
+
+<!-- ______________________________________________________Heading_________________________________________________________ -->
+		
+		<div class ="row">
+			
+			<div class="col-xs-4">
+			</div>	
+
+			<div class ="col-xs-4">
+			
+				<h1> Rock, Paper, Scissors Game!  <small>-By:Nathian Rogers</small></h1>		
+			
+			</div>
+
+			<div class= "col-xs-4">
+			</div>	
+		</div>
+			
+<!-- _________________________________________________Computer Response____________________________________________________ -->
+
+		<div class ="row">
+			<div class="col-xs-4">
+			</div>
+
+			<div class="col-xs-4">
+				<div id ="computerResponse">
+					<h2>COMPUTER RESPONSE!!!</h2>
+					<button onclick="compare()">Compare</button>
+					<p id= "compResponse"></p>
+			</div>	
+				</div>
+				<div class="col-xs-4">
+				</div>
+		</div>
+<!-- ______________________________________________User Response __________________________________________________________ -->
+	<div class ="row">	
+		
+	
+		<div class ="center-block">	
+			<div id = "userResponse">
+				<div class="pull-left">
+
+	
+<!-- _____________________________________________Pictures_________________________________________________________________ -->
+					<div class = "col-xs-4 col-md-4">
+						<div id ="rock">
+							<img src="http://pwtorch.com/artman2/uploads/1/RockArt_130WK_33.jpg" alt="Responsive image" onClick="playerRock()"
+							class="img-responsive img-circle" >
+						</div>
+					</div>	
+
+					<div class = "col-xs-4 col-md-4 ">
+						<div id = "paper">
+							<img src="http://cdn.instructables.com/FYQ/EB4W/FJ2W8LRI/FYQEB4WFJ2W8LRI.SQUARE2.jpg" alt="Responsive image" onClick="playerPaper()" class="img-responsive img-circle" >
+						</div>
+					</div>
+
+					<div class = "col-xs-4 col-md-4">
+						<div id = "scissors">	
+							<img src="http://ecx.images-amazon.com/images/I/41dyI4%2Bg8LL._SL500_AA130_.jpg" alt="Responsive image" onClick="playerScissors()" class="img-responsive img-circle" >
+						</div>
+					</div>
+				</div>
+<!-- _____________________________________________________Links to JavaScripts___________________________________________ -->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    				<script src="js/bootstrap.min.js"></script>	
+					<script src="js/scripts.js"></script>
+				</div>
+			</div>		
+		</div>	
+	</div>
+
+
+
+
+
+</body>
+
+</html>
