@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Kagan bootstrap</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/rock.css" rel="stylesheet">
+
+  
+
+  <body>
+
+<div class="navbar-wrapper">
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-static-top">
+      
+        <div class="navbar-header">
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+        <a class="navbar-brand" href="index.html">My Projects</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="rockPaperScissors">Rock Paper Scissors</a></li>
+            <li><a href="WebJournal.html">Web journal</a></li>
+      
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">TBD <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+  <h1>Rock Paper Scissors</h1>
+
+
+   
+    <div class="gameWrapper">
+    
+      <div class="row">
+       
+       <div class="col-xs-12 col-sm-4">
+         <button id="rock" onClick="playerRock()"><img src="http://cdn.instructables.com/F1F/IFEN/GW88TP3T/F1FIFENGW88TP3T.LARGE.jpg" class="img-responsive" alt="tortle"></button>
+       </div> 
+      
+
+     
+        <div class="col-xs-12 col-sm-4">
+          <button id="paper" onClick="playerPaper()"><img src="http://projectnursery.com/wp-content/uploads/2013/08/9780694003617_p0_v2_s600.jpg" class="img-responsive" alt="paper"></button>
+        
+        </div>
+      
+        <div class="col-xs-12 col-sm-4">
+           <button id="scissors" onClick="playerScissors()"><img src="http://www.thehogring.com/wp-content/uploads/2012/11/The-Hog-Ring-Auto-Upholstery-Community-Nissan-Baby-Skin-Bacon-Artifical-Finger.gif" class="img-responsive" alt="scissor"></button>
+        </div>
+      </div>
+  </div>
+
+
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
