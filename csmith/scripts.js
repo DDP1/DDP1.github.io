@@ -11,10 +11,8 @@ function mixRate(event) {
 
 	};
 
-	var text = "<p>You rated my mixtape as: " + tape.rating + ".</p>";
+	var text = "<p>You rated my website as a: " + tape.rating + ".</p>";
 
 	document.getElementById("results").innerHTML = text;
-
-
 
 }
