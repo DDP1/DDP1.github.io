@@ -2,14 +2,19 @@ body {
 	background-image: url(http://thespiritscience.net/wp-content/uploads/2014/06/The-Night-Sky-Wallpaper.jpg);
 	font-size: 100%;
 	text-decoration: bold;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+
 }
 
+
 .heading{
-	text-align: center;
+	color: white;
+}
+
+.pic{
 	border-radius: 20px;
-	border: solid black 5px;
-	padding: 0px 30% 0px 30%;
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: grey;
+	border: solid black 4px;
 }
