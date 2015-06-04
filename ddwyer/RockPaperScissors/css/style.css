@@ -5,6 +5,9 @@ body {
 	text-decoration: bold;
 	background-image: url(http://www.attikainternational.com/xml/cache/mceimages/Himalayas.jpg);
 	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 
@@ -14,15 +17,19 @@ button{
 	margin: 10px 10px 10px 10px;
 }
 
+ul{
+	list-style: none;
+}
+
 
 .heading{
-	text-align: center;
+	/*text-align: center;*/
 	border-radius: 0px;
-	border: solid black 5px;
+	/*border: solid black 5px;*/
 	padding: 0px 0% 0px 0%;
 	margin-left: 0%;
 	margin-right: 0%;
-	background-color: grey;
+	/*background-color: grey;*/
 }
 
 
@@ -74,3 +81,41 @@ button{
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
+
+#home{
+	padding: 5px 0px 5px 0px;
+	margin: 5px 5px 5px 5px;
+	border: solid black 5px;
+	background-color: grey;
+	text-align: center;
+	float: left;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+
+#game{
+	padding: 5px 0px 5px 0px;
+	margin: 5px 5px 5px 5px;
+	border: solid black 5px;
+	background-color: grey;
+	text-align: center;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+
+#site{
+	padding: 5px 0px 5px 0px;
+	margin: 5px 5px 5px 5px;
+	border: solid black 5px;
+	background-color: grey;
+	text-align: center;
+	float: right;
+	color: white;
+	list-style: none;
+}
+
+
+
+
