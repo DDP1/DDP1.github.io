@@ -5,20 +5,20 @@ body {
 #userSide {
 	width:50%;
 	height:500px;
+	display: inline-block;
 
 }
 #computerSide {
 	width:50%;
-	height:50px;
+	height:500px;
+	display: inline-block;
+	
 }
 .choiceDiv {
-	margin-left: auto;
-	margin-right: auto;
 	height:200px;
 	width:200px;
 	border:10px;
 	border-radius:200px;
-	display: inline-block;
 	background-color: white;
 	opacity: 0.6;
 }
@@ -30,10 +30,15 @@ body {
 	height:100%;
 }
 #choiceBox {
-	width:90%;
-	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 #yourchoice {
 	margin-top: 20px;
 	margin-left: 20px;
+}
+#words {
+	font-size: 15pt;
+	text-align: center;
 }

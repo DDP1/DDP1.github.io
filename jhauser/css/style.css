@@ -1,0 +1,118 @@
+
+
+/*Rock Paper Scissors Lizard Spock*/
+#userSide {
+	width:40%;
+	height:500px;
+	display: inline-block;
+
+}
+#computerSide {
+
+	height:50px;
+	display: inline-block;
+	
+}
+.choiceDiv {
+	height:200px;
+	width:200px;
+	border:10px;
+	border-radius:200px;
+	display: inline-block;
+	background-color: white;
+	opacity: 0.6;
+}
+.choiceDiv:hover {
+	opacity: 1;
+}
+.choices {
+	width:100%;
+	height:100%;
+}
+#choiceBox {
+	width:90%;
+	margin: auto;
+}
+#yourchoice {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*Home Page*/
+.centerText {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.meText{
+	width: 65%;
+	float: right;
+	font-size: 20px;
+}
+.me {
+	width:30%;
+	float:left;
+	display: inline-block;
+}
+
+.image {
+	float:right;
+	width:100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#menu {
+    width: 100%%;
+    height: 35px;
+    font-size: 16px;
+    font-family: Times, sans-serif;
+    text-align: center;
+    background-color: rgba(125,125,125,.8);
+   	margin:-10px;
+
+}
+.Tab {
+	
+}
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+	display: inline; 
+	padding: 20px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover {
+    color: #000;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+.believeSpacer {
+	height:450px;
+}
+
+/*Journal*/
+#journal {
+	text-align: left;
+	width:70%;
+	margin:auto;
+	padding: 20px;
+	background-image:url("../images/concrete.png");
+	background-repeat: repeat;
+	border-radius: 20px;
+}
+.top {
+	text-align: center;
+}
+

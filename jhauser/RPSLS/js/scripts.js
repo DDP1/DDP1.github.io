@@ -11,78 +11,124 @@ var scissors = document.getElementById("scissorsChoice");
 var lizard = document.getElementById("lizardChoice");
 var spock = document.getElementById("spockChoice");
 
+
 function changeRock() {
-	var playerChoice = "Rock";
+	playerChoice = "Rock";
 	document.getElementById("yourChoice").src = ("images/Rock.png");
+	document.getElementById("words").innerHTML = "Rock. A strong choice.";
+	document.getElementById("advice").innerHTML = "Now click the displayed image to lock in your choice";
 }
 function changePaper() {
-	var playerChoice = options[1];
+	playerChoice = options[1];
 	document.getElementById("yourChoice").src = ("images/Paper.png");
+	document.getElementById("words").innerHTML = "Paper? Really?!? Paper is so weak!";
+	document.getElementById("advice").innerHTML = "Now click the displayed image to lock in your choice";
 }
 function changeScissors() {
-	var playerChoice = options[2];
+	playerChoice = options[2];
 	document.getElementById("yourChoice").src = ("images/Scissors.png");
+	document.getElementById("words").innerHTML = "Don't run with your Scissors now.";
+	document.getElementById("advice").innerHTML = "Now click the displayed image to lock in your choice";
 }
 function changeLizard() {
-	var playerChoice = options[3];
+	playerChoice = options[3];
 	document.getElementById("yourChoice").src = ("images/Lizard.png");
+	document.getElementById("words").innerHTML = "Wait, is the Lizard poisonous?";
+	document.getElementById("advice").innerHTML = "Now click the displayed image to lock in your choice";
 }
 function changeSpock() {
-	var playerChoice = options[4];
+	playerChoice = options[4];
 	document.getElementById("yourChoice").src = ("images/Spock.png");
+	document.getElementById("words").innerHTML = "Spock. Rest in peace Leonard Nimoy";
+	document.getElementById("advice").innerHTML = "Now click the displayed image to lock in your choice";
 }
 
 
 function runTheGame() {
+
 	var computerChoice = options[ranNum];
 
+	if (computerChoice === "Scissors") {
+		document.getElementById("theirChoice").src = ("images/Scissors.png");
+	} else if (computerChoice === "Rock"){
+		document.getElementById("theirChoice").src = ("images/Rock.png");
+	} else if (computerChoice === "Paper"){
+		document.getElementById("theirChoice").src = ("images/Paper.png");
+	} else if (computerChoice === "Spock"){
+		document.getElementById("theirChoice").src = ("images/Spock.png");
+	} else if (computerChoice === "Lizard"){
+		document.getElementById("theirChoice").src = ("images/Lizard.png");
+	}
+
 	if (playerChoice === computerChoice) {
- 		alert("Tie")
+ 		document.getElementById("words").innerHTML ="Tie";
+ 		document.getElementById("advice").innerHTML = "Sorry. Play again?";
+
 
  	//Win
  	
-	} else if (playerChoice === "Scissors" && computerChoice === "Paper"){
-		alert("Scissors cut paper");
+} else if (playerChoice === "Scissors" && computerChoice === "Paper"){
+		document.getElementById("words").innerHTML = "Scissors cut paper";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Paper" && computerChoice === "Rock"){
-		alert("Paper covers rock");
+		document.getElementById("words").innerHTML = "Paper covers rock";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Rock" && computerChoice === "Lizard"){
-		alert("Rock crushes lizard");
+		document.getElementById("words").innerHTML = "Rock crushes lizard";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Lizard" && computerChoice === "Spock"){
-		alert("Lizard poisons Spock");
+		document.getElementById("words").innerHTML = "Lizard poisons Spock";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Spock" && computerChoice === "Scissors"){
-		alert("Spock smashes scissors");
+		document.getElementById("words").innerHTML = "Spock smashes scissors";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Scissors" && computerChoice === "Lizard"){
-		alert("Scissors decapitate lizard");
+		document.getElementById("words").innerHTML = "Scissors decapitate lizard";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Lizard" && computerChoice === "Paper"){
-		alert("Lizard eats paper");
+		document.getElementById("words").innerHTML = "Lizard eats paper";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Paper" && computerChoice === "Spock"){
-		alert("Paper disproves Spock");
+		document.getElementById("words").innerHTML = "Paper disproves Spock";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Spock" && computerChoice === "Rock"){
-		alert("Spock vapirizes rock");
+		document.getElementById("words").innerHTML = "Spock vapirizes rock";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	} else if (playerChoice === "Rock" && computerChoice === "Scissors"){
-		alert("Rock crushes scissors");
+		document.getElementById("words").innerHTML = "Rock crushes scissors";
+		document.getElementById("advice").innerHTML = "YOU WIN!";
 	
 	//Lose
 
 	} else if (computerChoice === "Scissors" && playerChoice === "Paper"){
-		alert("Scissors cut paper");
+		document.getElementById("words").innerHTML = "Scissors cut paper";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Paper" && playerChoice === "Rock"){
-		alert("Paper covers rock");
+		document.getElementById("words").innerHTML = "Paper covers rock";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Rock" && playerChoice === "Lizard"){
-		alert("Rock crushes lizard");
+		document.getElementById("words").innerHTML = "Rock crushes lizard";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Lizard" && playerChoice === "Spock"){
-		alert("Lizard poisons Spock");
+		document.getElementById("words").innerHTML = "Lizard poisons Spock";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Spock" && playerChoice === "Scissors"){
-		alert("Spock smashes scissors");
+		document.getElementById("words").innerHTML = "Spock smashes scissors";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Scissors" && playerChoice === "Lizard"){
-		alert("Scissors decapitate lizard");
+		document.getElementById("words").innerHTML = "Scissors decapitate lizard";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Lizard" && playerChoice === "Paper"){
-		alert("Lizard eats paper");
+		document.getElementById("words").innerHTML = "Lizard eats paper";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Paper" && playerChoice === "Spock"){
-		alert("Paper disproves Spock");
+		document.getElementById("words").innerHTML = "Paper disproves Spock";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Spock" && playerChoice === "Rock"){
-		alert("Spock vapirizes rock");
+		document.getElementById("words").innerHTML = "Spock vapirizes rock";
+		document.getElementById("advice").innerHTML = "You lost.";
 	} else if (computerChoice === "Rock" && playerChoice === "Scissors"){
-		alert("Rock crushes scissors");
+		document.getElementById("words").innerHTML = "Rock crushes scissors";
+		document.getElementById("advice").innerHTML = "You lost.";
 	}
 }

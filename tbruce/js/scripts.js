@@ -1,7 +1,7 @@
 var score = 0;	
 var outcome ="";
 var usrResponse;
-//functions usrRock,usrPaper,usrScissors activate when the corosponding img on the website is clicked and sets the variable usrResponse
+//functions usrRock,usrPaper,usrScissors activate when the corosponding img on the website is clicked and sets the variable usrResponse.  Then the functoin play game is activated.
 function usrRock () { 
 	usrResponse = "ROCK";
 	playGame();
@@ -71,9 +71,28 @@ function playGame () {
 	//the total score and out come of the most recent game are displayed in the website
 	document.getElementById("scoreBox").innerHTML = score;
 	document.getElementById("outcomeBox").innerHTML = outcome;
-	//the 
+	//the choices of the usr and computer are displayed in the console as well as the total score 
 	console.log(usrResponse);
 	console.log(compResponse);
 	console.log(score);
 };
+
+//script for forms
+var form = document.forms.biker;
+form.addEventListener("submit",bikeCheck,false);
+function bikeCheck(event) {
+	event.preventDefault();
+	
+	if (bike="yes") {
+		var bicycle = "are"
+	}else{
+		var bicycle = "aren't"
+	};
+
+	var text = "You"+firstname+lastname+bicycle+"a biker";
+	document.getElementById('results').
+		innerHTML = text
+}
+
+
 

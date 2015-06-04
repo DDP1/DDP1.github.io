@@ -7,6 +7,7 @@
 	<title>Rock,Paper,Scissors</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="css/photos/rock-icon.png">
 </head>
 <body>
 	<div class="pageTop">
@@ -23,21 +24,22 @@
 		  </ul>
 		</div>
 	</div>
+	<div class="colorBar2"><div class="colorBar"></div><div class="colorBar3"></div></div>
 	<div class="row">
 		<div class="col-xs-5">
-		<img id="usrHand" src="">
+		<img class="img-responsive" id="usrHand" src="">
 		<p class="RPSLabel">You</p>	
 		</div>
 		
 		<div class="col-xs-2">
-		<img class="choose" onclick= "usrRock()" src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png">
-		<img class="choose" onclick= "usrPaper()" src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-paper-icon.png">
-		<img class="choose" onclick= "usrScissors()"src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png">
+		<img class="choose img-responsive" onclick= "usrRock()" src="css/photos/rock-icon.png">
+		<img class="choose img-responsive" onclick= "usrPaper()" src="css/photos/paper-icon.png">
+		<img class="choose img-responsive" onclick= "usrScissors()"src="css/photos/scissors-icon.png">
 		<p class="RPSLabel">Choose one</p>
 		</div>
 		
 		<div class="col-xs-5">
-		<img id="compHand" src="">
+		<img class="img-responsive" id="compHand" src="">
 		<p class="RPSLabel">Opponent</p>
 		</div>
 	</div>

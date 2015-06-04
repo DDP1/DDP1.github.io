@@ -1,38 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content="DAZ">
-		<title>RPSLS</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+	<head> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div id="userSide">
-			<img id="yourChoice"src="images/blank.png">
+
+		<div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="RPSLS/index.html">Game</a></li>
+			<li><a href="other.html">Resources</a></li>
+			<li><a href="journal.html">Journal</a></li>
+		</ul>
+		</div>
+		<div class="spacer"></div>
+		<div class="top" id="things">
+			<h1>Welcome</h1>		
 		</div>
 
-		<div id="computerSide">
+		
+		<div class="centerText">
+			
+			<div class="meText">
+				<h3> About the author </h3>
 
-		</div>
-		<div id="choiceBox">
-			<div onClick = "changeRock()" class="choiceDiv" id="rockChoice">
-				<img class="choices" src="images/Rock.png">
-			</div>
-			<div onClick = "changePaper()"class="choiceDiv" id="paperChoice">
-				<img class="choices" src="images/Paper.png">
-			</div>
-			<div onClick = "changeScissors()"class="choiceDiv" id="scissorsChoice">
-				<img class="choices" src="images/Scissors.png">
-			</div>
-			<div onClick = "changeLizard()"class="choiceDiv" id="lizardChoice">
-				<img class="choices" src="images/Lizard.png">
-			</div>
-			<div onClick = "changeSpock()"class="choiceDiv" id="spockChoice">
-				<img class="choices" src="images/Spock.png">
-			</div>
-		</div>
-		<script src="js/scripts.js"> </script>
+				<p>Josh Hauser is a fine gentleman with spectacular taste. He is a genius of technology and basically is the coolest person on this planet. He has been known to save kittens from trees and run into burning buildings to save small children. His skills go far beyond his civil service of kittens and burning buildings, to saving the planet from oncoming meteors. He is a superhero, whom most comic book characters are based on. If one looks at any superhero, most likely part of them is based on the amazing Josh. He has been known to fly, breath underwater, carry enormous loads without breaking a sweat, and control objects with his mind, just to name a few. </p>
 
-	
+
+				<p>He has also recently started using his power of technological protege to write spectacular web pages, like the one that you are on. He is intending to use his new found web-presence to better help the kittens and stranded persons alike. </p>
+
+				<h5>If you have something that needs the help of the all powerful Josh, please leave it here and he will see what he can do!</h5>
+
+				<form name="example" action="action">
+					<input name="mixtape" type="text">
+
+					<input name="submit" type="submit" value="submit">
+				</form>
+
+				<div id="results">
+
+				</div>
+				<div class="believeSpacer">
+				</div>
+					<a href="believe/don'tstop.html">Do you believe?</a>
+				
+			</div>
+
+
+			<div class="me">
+				<img class="image" src="images/crazy.jpg">
+				<img class="image" src="images/mustache.jpg">
+				<img class="image" src="images/yepyep.jpg">
+			</div>
+				
+		</div>
+
+		<script src="scripts.js"></script>
+
+		
+
 	</body>
+
 </html>

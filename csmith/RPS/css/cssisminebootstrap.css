@@ -1,0 +1,92 @@
+marquee {
+	font-size: 100px;
+}
+#weapon {
+	font-size: 50px;
+    background-color: #AAAAAA;
+    color: white;
+    text-align: center;
+
+}
+#enemy{
+	font-size: 40px;
+    text-align: center;
+
+}
+#yay{
+	font-size: 50px;
+        background-color: #202020;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: #AAAAAA;
+    font-family: none;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+}
+
+#computerPick{
+   text-align: center;
+    font-size: 50px;
+   
+}
+
+#opm8 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#pictures{
+    text-align: center;
+}
+
+#uuu{
+    text-align: center;
+}
+
+
+#nav {
+  background-color: #0B615E;
+  text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#home {
+    color: #A2E0E6;
+}
+
+.hotbar{
+
+}
+
+.hotbar li{
+    display:inline;
+    background-color:#2D4474;
+    font-size:30px;
+    border-radius:25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hotbar a{
+    color:#7688AC;
+    text-decoration:none;
+    border:solid #05173A 2px;
+    border-radius:25px;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+.hotbar a:hover{
+    background-color:#A98329;
+}
+
+
+

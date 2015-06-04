@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://ddp1.github.io/kswoverland/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rock Paper Scissors</title>
+
+    <!-- Bootstrap -->
+    <link href="RPS/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="RPS/css/cssisminebootstrap.css">
+
+    <ul class="hotbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="journal.html">Journal</a></li>
+      </ul>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+<div class="container">
+<div class="row">
+  <div class="col-xs-12 col-md-12">
+     <h1 id="title">ROCK PAPER SCISSORS!</h1>
+  </div>
+</div>
+			
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6" id="weapon"><p>Select Your Fight</p></div>
+  <div class="col-md-3"></div>
+</div>
+
+<div class="row">
+
+<div class="col-xs-4 col-md-4">
+  <img src="http://geology.com/articles/petroglyphs/rock-art.jpg" class="img-responsive center-block" id="prock" onClick="playerRock()" />
+</div>
+
+<div class="col-xs-4 col-md-4">
+<img  src="http://upload.wikimedia.org/wikipedia/commons/2/23/Roll_of_toilet_paper_with_one_sheet_folded_down_in_front.jpg" class="img-responsive center-block" id="ppaper" onClick="playerPaper()"/>
+</div>
+
+<div class="col-xs-4 col-md-4">
+<img  src="http://cdn.blessthisstuff.com/imagens/stuff/img_pizza_scissors_2.jpg" class="img-responsive center-block" id="pscissors" onClick="playerScissors()"/>
+</div>
+</div>
+
+</div>
+
+<h4 class="text-center">Score: <span id="points"></span></h4>
+
+
+
+<div class="container">
+
+<div class="row">
+
+  <div class="col-md-3"></div>
+  <div class="col-md-6" id="yay"><p>Your Opponent</p> </div>
+  <div class="col-md-3"></div>
+
+</div>
+
+
+
+<div class="row">
+<div class="col-xs-4 col-md-4"></div>
+<div id="enemy" class="col-xs-4 col-md-4"></div>
+<div class="col-xs-4 col-md-4"></div>
+</div>
+
+
+<h4 class="text-center">Enemy Score: <span id="enemypoints"></span></h4>
+
+
+<div class="row">
+  <div class="col-xs-4 col-md-4"></div>
+  <div id="computerPick" class="col-xs-4 col-md-4"></div>
+  <div class="col-xs-4 col-md-4"></div>
+</div>
+<div class="row">
+  <div class="col-xs-4"></div>
+  <div class="col-xs-4" id="yourmama"></div>
+  <div class="col-xs-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-xs-4 col-md-4"></div>
+  <div class="col-md-4 col-xs-4" id="opm8"></div>
+  <div class="col-xs-4 col-md-4"></div>
+</div>
+
+
+
+<script src="RPS/js2/script.js"></script>
+
+ <!-- http://paletton.com/#uid=1010u0koTe+aSov8LpSG2gmvE9t -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+body{
+	background-color:#7688AC;
+}
+
+.top{
+	border:solid #05173A 5px;
+	background-color:#A98329;
+	margin-right:10px;
+	margin-left:10px;
+	border-radius:25px;
+	
+}
+
+.pics{
+	border:solid #05173A 5px;
+	background-color:#A98329;
+	margin-right:25px;
+	margin-left:25px;
+}
+
+h1{
+	text-align:center;
+}
+
+.hotbar{
+
+}
+
+.hotbar li{
+	display:inline;
+	background-color:#2D4474;
+	font-size:30px;
+	border-radius:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.hotbar a{
+	color:#7688AC;
+	text-decoration:none;
+	border:solid #05173A 2px;
+	border-radius:25px;
+	padding-left:150px;
+	padding-right:150px;
+}
+
+.hotbar a:hover{
+	background-color:#A98329;
+}
+
+.inside{
+	width:300px;
+	height:250px;
+	display: inline-block;
+	border:solid black;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:5%;
+}
+
+.pic{
+	width:100%;
+	height:100%;
+}
+
+h2{
+	font-weight:bold;
+}
+
+.resources a{
+	text-decoration: none;
+	margin-left:50px;
+	color:#543700;
+	font-size:30px;
+}
+
+.resources a:hover{
+	font-size:50px;
+}
+
+.resources{
+	margin-bottom:-15px;
+}
+
+.main{
+	border: solid black;
+	border-radius: 20px;
+	background-color: #C3C3C3;
+}
+
+.main p{
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.main h2{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.web {
+	font-size: 30px;
+}
+
+#results {
+	font-size: 30px;
+}
+
+.submit {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
