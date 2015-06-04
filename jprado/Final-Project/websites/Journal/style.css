@@ -6,20 +6,17 @@
 	color: white;
 }
 #navigation {
-	margin-left: 10px;
+	margin-top: 50px;
 }
 #navigation li a{
 	float: left;
 	display: block;
 	text-decoration: none;
 	border: 5px black solid;
-	margin-right: 5px;
 	padding-top: 10px;
-	padding-left: 80px;
-	padding-right: 80px;
+	width: 200px;
 	padding-bottom: 10px;
 	text-align: center;
-	width: 200px;
 	border-radius: 30px;
 	background-color: #440467;
 	color: white;
