@@ -1,7 +1,5 @@
 body{
 	background: url(http://i.minus.com/ibu82W77AabNcL.gif);
-	background-position: center;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -10,6 +8,7 @@ body{
 	border: solid black 5px;
 	background-color: white;
 	color: black;
+	padding: 10px;
 }
 
 .title{

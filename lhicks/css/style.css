@@ -1,0 +1,52 @@
+.navText
+{
+	font-size:14pt;
+	color:black;
+}
+#nav
+{
+	background-color:#0c7c00;
+}
+body
+{
+	background-color:#54a44b;
+}
+.playerPictureContainer
+{
+	background-color:#B9E6B4;
+	border:solid black 2px;
+}
+.playerPictureContainer:hover
+{
+	background-color:#67c354
+}
+/*.enemyChoiceImg
+{
+	width:100px;
+	height:auto;
+}*/
+#dlc
+{
+	color:red;
+}
+#enemyChoice img
+{
+	width:100px;
+	height:auto;
+}
+#enemyChoice
+{
+	background-color:#B9E6B4;
+	border:solid black 2px;
+	width:150px;
+}
+.journalEntry
+{
+	background-color:#8EE87B;
+	padding:10px;
+	border:solid green 15px;
+}
+.habitat
+{
+	border:solid black 2px;
+}
