@@ -28,3 +28,16 @@ h1{
 .aboutMe{
 	letter-spacing: 2.5px;
 }
+
+body{
+	background-image: url("http://www.bestinspired.com/wp-content/uploads/2015/03/Abstract-Art-396.jpg");
+}
+#aboutMe{
+	color: #000000;
+}
+p{
+	color: #000000;
+}
+h1{
+	color: #000000;
+}

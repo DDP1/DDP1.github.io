@@ -1,0 +1,19 @@
+body{
+	background-image:url("http://www.theartisticblog.com/ArtisticBlog/wp-content/uploads/2014/03/CApixART-Abstract-228.jpg");
+}
+
+
+
+.h1{
+	
+	border-color:#ffffff;
+	background-color: #27261E;
+	color:#18151A;
+
+}
+
+.h1:hover{
+
+color: #FFFFFF;
+}
+
