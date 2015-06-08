@@ -20,13 +20,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="background">
 
     <div id="banner">
   <div class="row">
   <div class="col-sm-6">
     
-    <h1><span id="site-title">Matthew Duncan</span><p class="lead">Elemental Game</p></h1>
+    <h1 id="Title"><span id="site-title">Matthew Duncan</span><p class="lead">Elemental Game</p></h1>
   
   </div>
   </div>
@@ -34,12 +34,12 @@
 
    
 
-    <div class="container">     
+    <div class="container" id="navStyle">     
 
             
           <div class="navbar-wrapper">
             <div class="container">
-              <div class="navbar navbar-inverse navbar-static-top">
+              <div id="navStyle" class="navbar navbar-inverse navbar-fixed-bottom">
                 
                   <div class="navbar-header">
                 <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -75,38 +75,39 @@
             </div>
           </div>
 
+<div class="container">
+
+<div class="row">
+
 <p id="userChoiceBox"></p>
 
 
         
 
-         <div class="container">
-
-        <div class="row">
     
         <p id="userTally">You</p>
         <h1 id="userPointTally" ></h1>
 
 
-    <p id="clear" ></p>
-
-
-        <p id="drawTally" >Draw</p>
-        <h1 id="drawPointTally"></h1>
-            
-    
-              
-    <p id="clear"></p>
             
             <p id="compTally">Computer</p>
             <h1 id="compPointTally" ></h1>
             
-    
-              
-    <p id="clear"></p>
+
+
+
+        <p class="text-center" id="drawTally" >Draw</p>
+        <h1 class="text-center" id="drawPointTally"></h1>
+
           
-      </div>  
+            </div>  
+        </div>
     </div>
+</div>
+
+
+
+
 
         <div id ="pictureChoices" >
                               
@@ -124,9 +125,9 @@
 
             
   <div id="centerButtons"> 
-    <button id="fire" onClick="userFire()"><img src="http://uxrepo.com/static/icon-sets/elusive/svg/fire.svg" alt="fire">Fire</button>
-    <button id="water" onClick="userWater()"><img src="http://www.xerces.org/wp-content/uploads/2014/07/icon_14129.png" alt="water">Water</button>
-    <button id="grass" onClick="userGrass()"><img src="http://icons.iconarchive.com/icons/icons8/android/512/Plants-Grass-icon.png" alt="grass">Grass</button>
+    <button id="fire" onClick="userFire()"><img src="./images/fire.svg" alt="fire">Fire</button>
+    <button id="water" onClick="userWater()"><img src="./images/water.png" alt="water">Water</button>
+    <button id="grass" onClick="userGrass()"><img src="./images/grass.png" alt="grass">Grass</button>
   </div>
         </div>
     

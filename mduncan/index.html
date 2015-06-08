@@ -9,7 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,12 +18,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="background">
 
   	<div id="banner">
 	<div class="row">
 	<div class="col-sm-6">
-		<h1><span id="site-title">Matthew Duncan</span><p class="lead">About Me</p></h1>
+		<h1 id="Title"><span id="site-title">Matthew Duncan</span><p class="lead">About Me</p></h1>
 		
 	</div>
 	</div>
@@ -37,7 +36,7 @@
             
           <div class="navbar-wrapper">
             <div class="container">
-              <div class="navbar navbar-inverse navbar-static-top">
+              <div id="navStyle" class="navbar navbar-inverse navbar-fixed-bottom">
                 
                   <div class="navbar-header">
                 <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -77,28 +76,46 @@
 <div class="container">
 <div class="row">
 	<div class="col-xs-12">
-		<h1>About Me <small>Short Biography &amp; A Few Pictures</small></h1>
+		<h1 id="Title">About Me <small>Short Biography &amp; A Few Pictures</small></h1>
 	</div>
 </div>
 <div class="media">
 	<div class="media-body">
-		<h4 class="media-heading">Why I chose Computer Coding</h4>
-		I knew Mr.Jamieson would be teaching the class, and I had really enjoyed being a student of his. He helped me a lot and whenever I was stumped and needed help, he was there. He was and is a very helpful and knowledgeable teacher. I had past experience in programming, about three years worth in Javascript and C#. I had programmed inside of Unity 3 and iterations afterward, and just recently Unreal Engine 4. During the summer in 2014 I joined the FHS App developers, I was learnign and going every other weekend to meetings before I had to stop going. During that time I learned HTML, CSS, PHP, and some Ruby due to courses I took at Codeacademy. I am currently developing the game Wrath Of The Goliaths: Dinosaurs, with my team at Ascendence Studios.
+		<h4 class="media-heading" id="textStyle">Why I chose Computer Coding</h4>
+		<h5 id="secondaryTextStyle">I knew Mr.Jamieson would be teaching the class, and I had really enjoyed being a student of his. He helped me a lot and whenever I was stumped and needed help, he was there. He was and is a very helpful and knowledgeable teacher. I had past experience in programming, about three years worth in Javascript and C#. I had programmed inside of Unity 3 and iterations afterward, and just recently Unreal Engine 4. During the summer in 2014 I joined the FHS App developers, I was learnign and going every other weekend to meetings before I had to stop going. During that time I learned HTML, CSS, PHP, and some Ruby due to courses I took at Codeacademy. I am currently developing the game Wrath Of The Goliaths: Dinosaurs, with my team at Ascendence Studios.</h5>
 	</div>
 </div>
 			<br></br>
 
-				<a id="commentBox"></a>
-				
-
-					<br></br>
-					<a>Comment:</a>
-					
-<form id="myForm"  method="post"> 
-    
-    <textarea name="comment" placeholder="Enter a comment here..." ></textarea> 
-    <input type="submit" value="Submit"  /> 
+				<form class="form-horizontal" role="form">
+        <label>Sign-up for our news letter:</label>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" >Submit</button>
+    </div>
+  </div>
 </form>
+					
+
 
 <br></br>
 
@@ -108,32 +125,43 @@
 	<div class="col-lg-10 col-lg-offset-1 text-center">
                     
                         
-                        <div class="col-md-6">
-                            <div class="gallery-item">
-                                <a>
-                                    <img class="center-block img-thumbnail" src="images/Carcha.jpg" alt="Dino">
-                                </a>
-                            </div>
-                        </div>
-				
-                        <div class="col-md-6">
-                            <div class="gallery-item">
-                                <a>
-                                    <img class="img-thumbnail" src="images/Carno.jpg" alt="Dino">
-                                </a>
-                            </div>
-                        </div>
-          
- 
-                        <div class="col-md-6">
-                            <div class="gallery-item">
-                                <a>
-                                    <img class="img-thumbnail" src="images/StegoRender.jpg" alt="Dino">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                      
            
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myStego"><img src="images/StegoRender.jpg" alt="stego" id="clickableImg"></button>
+
+<div id="myStego" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="images/StegoRender.jpg" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myCarno"><img src="images/Carno.jpg" alt="carno" id="clickableImg"></button>
+
+<div id="myCarno" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="images/carno.jpg" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myCarcha"><img src="images/Carcha.jpg" alt="carno" id="clickableImg"></button>
+
+<div id="myCarcha" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="images/carcha.jpg" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>
 			  				
 				<br><br>
           
@@ -151,25 +179,21 @@
 
     <script src="js/timeScript.js"></script>
 
-
+    <script src="js/formscript.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
     <script src="http://malsup.github.com/jquery.form.js"></script> 
  
-    <script> 
-        // wait for the DOM to be loaded 
-        $(document).ready(function() { 
-            // bind 'myForm' and provide a simple callback function 
-            $('#myForm').ajaxForm(function() { 
-            	printComment($('#myForm'));
-                alert("Thank you for your comment!"); 
-            }); 
-        }); 
-    </script> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-lightbox.min.css">
+ 
+<script src="assets/js/bootstrap.js"></script> <!-- Or just bootstrap-tooltip.js -->
+<script src="assets/js/bootstrap-lightbox.js"></script>
+<script src="assets/js/bootstrap-img-lightbox-tooltip.js"></script>
 
-	<script src="js/formscript.js"></script>
+	
 
 
-
+  
 
 
 

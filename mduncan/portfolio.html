@@ -9,7 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
    <link type = "text/css" rel = "stylesheet" href = "css/rps_css.css">
 
@@ -20,13 +19,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="background">
 
     <div id="banner">
   <div class="row">
   <div class="col-sm-6">
     
-    <h1><span id="site-title">Matthew Duncan</span><p class="lead">Portfolio</p></h1>
+    <h1 id="Title"><span id="site-title">Matthew Duncan</span><p class="lead">Portfolio</p></h1>
 
 
   
@@ -41,7 +40,7 @@
             
           <div class="navbar-wrapper">
             <div class="container">
-              <div class="navbar navbar-inverse navbar-static-top">
+              <div id="navStyle"  class="navbar navbar-inverse navbar-fixed-bottom">
                 
                   <div class="navbar-header">
                 <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -96,18 +95,23 @@
 
     
     <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <div class="row">
                         
                         
-            <div class="col-md-6">
-                            <div class="gallery-item">
-                                <a>
-                                    <img class="img-gallery" id="imgMain" src="images/Stego.jpg" alt="Stegosaurus">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-             </div>
+        
+       
+
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myStegoIG"><img src="images/Stego.jpg" alt="stego" id="clickableImg"></button>
+
+<div id="myStegoIG" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <img src="images/Stego.jpg" class="img-responsive">
+        </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
 <script src="js/jquery.min.js"></script>
