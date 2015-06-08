@@ -69,3 +69,36 @@ function compare() { // this function compares the choices and decides who wins
 	}
 
 }
+
+
+var Uname;
+var Write;
+
+
+var form=document.forms.name;
+form.addEventListener("submit",cookies,false);
+
+function cookies(event) {
+
+	event.preventDefault();
+
+	var chips = {
+		rating: form.graham.value,
+	}
+
+	var text = "<p>Gotta catch em all!, " + chips.rating +".</p>";
+
+	document.getElementById("results").innerHTML = text;
+}
+
+
+function check() {
+    document.getElementById("Check").checked = true;
+    document.getElementById("prob").innerHTML="<p>you are a true Hearther</p>";
+}
+
+function uncheck() {
+    document.getElementById("Check").checked = false;
+    document.getElementById("prob").innerHTML="<p>your a failure</p>";
+}
+

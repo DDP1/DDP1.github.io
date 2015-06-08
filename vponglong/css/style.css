@@ -1,5 +1,8 @@
 body{
-	background-image: url("http://p1.pichost.me/i/5/1282860.jpg");
+	background-image: url("../pic/backgrounds.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 	text-decoration:white;
 }
 
@@ -28,3 +31,8 @@ body{
 	height:400px;
 	width:400px;
 }
+.carousel-inner > .item > img{
+       width:840px;
+       height:360px;
+       margin: 0 auto;
+     }
