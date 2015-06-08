@@ -1,0 +1,59 @@
+p {
+	color:white;
+
+}
+body{
+	background:blue;
+}
+h2{
+	color:white;
+}
+h3{
+	color:white;
+}
+hr{
+	color:white;
+}
+h1{
+	color:white;
+	text-align: center;
+}	
+a{
+	color:white;
+}
+
+#navigation{
+	list-style: none;
+	
+}
+
+#navigation li a{
+	text-decoration: none;
+	display:block;
+	background-color: orange;
+	width:200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#navigation li a:hover{
+	background-color: purple;
+}
+#rye{
+	font-size: 5em;
+}
+
+#secret{
+	color:blue;
+}
+.sandwiches{
+	height: 195px;
+	width: auto;
+}
+.propertiesPhotos{
+	height:200;
+	width: 300;
+}
+#centerHeadings{
+	text-align: center;
+}
