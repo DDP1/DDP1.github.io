@@ -48,11 +48,6 @@ body{
 	width: 390px;
 }
 
-.minecraft{
-	height: 100px;
-	width: 300px;
-}
-
 .cod{
 	height:100px;
 	width: 370px;
@@ -69,31 +64,10 @@ body{
 	width: 400px;
 }
 
-
-#nba2k{
-	height: 100px;
-	width: 275px;
-}
-
-#gta{
-	height:100px;
-	width: 120px;
-}
-
-#halo{
-	height: 100px;
-	width: 550px;
-}
-
-#nintendo{
-	height:100px;
-	width: 500px;
-}
-
 .vidPic{
 	height: 150px;
-	width: 350px;
-	margin-left: 12%;
+	width: 340px;
+	text-align: center;
 }
 
 
