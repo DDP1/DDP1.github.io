@@ -10,5 +10,20 @@ img{
 
 }
 
+ 
+#menu a{
+	display:block;
+	text-decoration:none;}
 
+	#menu li{
+	width:100px; 
+	
+	border:solid black 5px;
+	
+	list-style:none;
+	text-align:center;
+	background-color:#1D232E;
+	float:left;
+
+}
 
