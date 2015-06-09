@@ -1,0 +1,208 @@
+body{
+	text-shadow:  2px -2px 2px black;
+	font-family: sans-serif;
+	font-size: .9em;
+	background-color: #FF8B82;
+}
+
+h2 {
+ 	color:#FF6903; 
+ 	border: groove  #A8190A 5px;
+ 	text-align: center;
+ 	background-color:#FF6357;
+ 	border-radius: 100px;
+}
+h3{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	color:#FF6903; 
+ 	border: groove  #A8190A 3px;
+ 	text-align: center;
+ 	background-color:#FF6357 ;
+ 	border-radius: 15px;
+}
+#listbox1{
+	
+	border: groove #A8190A 6px; /* this is the outer most box that houses the button for the for loop to prompt and list user generated answers*/
+	border-radius: 25px;
+	background-color: #FF7232;
+	width: 45%;
+	height: 50%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+#listbox2{
+	
+	border: groove #A8190A 6px; /* this is the outermost box housing the button for the while loop*/
+	border-radius: 25px;
+	background-color: #FF7232 ;
+	width: 45%;
+	height: 50%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+
+#list1 {
+	color: #FF8B82;  				/* This creates a box around the user text*/
+	width: 90%;	
+	height: auto;
+	border: groove #FF6357 5px;
+	border-radius: 200px;
+	background-color: #A8190A;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: auto;
+}
+#list2 {							/* This creates a box around the user text*/
+	color: #FF8B82;
+	border: groove #FF6357 5px;
+	border-radius: 200px;
+	background-color: #A8190A;
+	width: 90%;	
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+	
+#imagebox{ /* this makes an image be 100% of another box*/
+width:100%;
+}
+#overimagebox{    /* this box is then used to shape the image adressed above*/
+margin-top: 3%;
+border: groove #A8190A 5px;
+width:45%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#introinputstyle:hover{ /* Creates a hover button for the button in the index*/
+	color: #FF6357;
+}
+#introinputstyle{  /*Styles the button in the index html page*/
+	width: 100%;
+	border: groove #FF6357 5px;
+}
+#promptindexstyle {				/*Styles the buttons in the promptpage html page*/
+width: 100%;
+border: groove #FF6357 5px;
+}
+#promptindexstyle:hover{	/* Creates a hover button for the buttons in the html promptpage*/	
+	color: #FF6357;
+}
+.footerbox {
+	
+	width:35%;
+	padding-top: 100px;
+	border: 5px;
+}
+footer {
+	
+	text-align: center;
+	color: #FF8B82;
+	border: groove #A8190A 5px;
+	border-radius: 10px;
+	background-color: #A8190A;
+	width: 100%;
+	clear: bottom;
+}
+#promptbuttoncenter { 	/* Creates some style for the buttons that corespond to the prompting buttons in the listboxes*/
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imagebutton { 		/* This is style specifically for the image button that shows or hides the duck picture*/
+	width:28%;
+	margin-top: 3%;
+}
+#duckpic {
+	visibility: hidden; 	/* This is some style for the duck picture as well as the necessary style for the javascript "if" statement*/
+	border: groove #A8190A 10px;
+}
+
+
+					/*ROCKPAPERSCISSORS*/
+				/*ROCKPAPERSCISSORS*/
+			/*ROCKPAPERSCISSORS*/
+		/*ROCKPAPERSCISSORS*/
+	/*ROCKPAPERSCISSORS*/
+#yourGame{
+	border: groove #A8190A 6px; /* this is the outermost box housing the button for the while loop*/
+	background-color: #FF7232 ;
+	width: 45%;
+	padding-bottom: 2%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gameButtons {				/*style for the buttons*/
+	width: 50%;
+	margin-left: 25%;
+	border: groove #FF6357 5px;
+}
+.gameButtons:hover {	/*gives the buttons a hover color*/
+	color: #3D3F90;
+}
+
+#yourResults {			/*gives the box where you are told if you won,lost ot tied a border*/
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #3D3F90;
+	border: groove #A8190A 7px;	
+	background-color: #FF6357;
+
+}
+#yourScoreBorder{					/*puts a border around your score*/
+	width:30%;
+	border: groove #A8190A 6px;
+	margin: auto;
+	border-radius: 25px;
+	background-color: #A8190A;
+}
+#yourScore {						/*this is the box for your score*/
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #3D3F90;
+	border: groove #A8190A 7px;	
+	background-color: #FF6357;
+}
+#scoreMarker {						/*this is the style for the box that simply labels the score box*/
+	width: 60%;
+	color: #3D3F90;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -12px;
+	text-align: center;
+	border: groove #A8190A 7px;	
+	background-color: #FF6357;
+}
+.gameimages{				/*some style for the images*/
+	width: 40px;
+	height:40px;
+	border: groove #A8190A 10px;
+}
+
+.gameimageborder {					/*this is a border around the images*/
+	border: solid #090B4B 2px;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*ROCKPAPERSCISSORS*/
+	/*ROCKPAPERSCISSORS*/
+			/*ROCKPAPERSCISSORS*/
+				/*ROCKPAPERSCISSORS*/
+					/*ROCKPAPERSCISSORS*/

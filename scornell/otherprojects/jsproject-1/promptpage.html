@@ -1,0 +1,72 @@
+<!DOCTYPE ><html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+<h2>Write About Today...</h2>
+
+
+<div id ="listbox1"> 			<!-- this first box houses the list that comes from the javasscript for loop and the dailyarray -->
+<h3> What I am Doing Today...</h3>
+<div id = "promptbuttoncenter">
+<input type=submit value="Setup..." id="promptindexstyle" onclick="daily()" /> <!-- This is a button,calls on the for loop, prompts the user and enters text -->
+</div>
+<p id ="list1"></p>
+</div>
+
+
+
+<div id ="listbox2"> <!-- this listbox corresponds to the goalarray and the while loop in the javascript  -->
+<h3> What My Goals for Today are...</h3>
+<div id = "promptbuttoncenter">
+<input type=submit value="Setup..." id="promptindexstyle" onclick="goals()" /> <!-- this is a button, calls on loop to prompr -->
+</div>
+<p id="list2"></p>
+</div>
+<div class= "footerbox">
+<footer> A Sample Site by Soren Cornell</footer>
+</div>
+
+<!--///////////////////// Rock paper scissor //////////////////////////////////////////-->
+<!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////-->
+
+<div id = "yourGame"> <!--a border is created around the entire "game"-->
+	<h3>Rock,Paper,Scissors</h3>
+
+	<input type=button value="Select Rock..." class="gameButtons" onclick="rock()" /> <!--this is the rock selector button-->
+	
+		<div class="gameimageborder"> <!--This creates a border around an image of a rock-->
+		<img src="Images/rock.png" class ="gameimages" />	<!--another border is added with the class-->
+		</div>
+
+	<input type=button value="Select Paper..." class="gameButtons" onclick="paper()" /><!--this is the paper selector button-->
+
+		<div class="gameimageborder"> <!--This creates a border around an image of paper-->
+		<img src="Images/paper.png" class="gameimages" /> <!--another border is added with the class-->
+		</div>
+
+	<input type=button value="Select Scissors..." class="gameButtons" onclick="scissors()" /> <!--this is the scissors selector button-->
+		<div class="gameimageborder"> <!--This creates a border around an image of scissors-->
+		<img src="Images/scissors.jpg" class="gameimages" /> <!--another border is added with the class-->
+		</div>
+
+	<p id ="yourResults"></p> <!--results are then displayed-->
+	<div id="yourScoreBorder"> <!--a border is around your results (score)-->
+	<p id ="scoreMarker">SCORE:</p> <!--simply labels the score-->
+	<p id ="yourScore"></p> <!--a score is kept-->
+	</div>
+</div>
+<!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////--><!--///////////////////// Rock paper scissor //////////////////////////////////////////-->
+<!--////////////////////  Rock paper scissor //////////////////////////////////////////-->
+
+<div id = "imagebutton">
+<input type=button value=" Cool Image!..." id="promptindexstyle" onclick="toggleDuck()" /><!-- the above button is the one that calls on the image to display, This calls on the if statement that shows or hides the duck image using visibility in css --> 
+</div>
+<br/>
+<img src="Images/duck.jpg" id="duckPic" /> <!-- this is that duck picture -->
+<br/>
+
+</body>
+<script src="Jscript/scripts.js"></script>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>	
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> My Games</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="row">
+<div class=class="col-xs-5"></div>
+   
+    <h3 class="titles"> My Games</h3>
+</div> 
+<div class=class="col-xs-5"></div>
+</div> 
+
+<nav class="navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="http://gasolinegardens.bandcamp.com/">My Bandcamp</a>
+      <a class="navbar-brand" href="https://www.youtube.com/channel/UCHKIIvmR_PslZNRhFH-amNA">My Youtube</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class=><a href="../index.html">Home</a></li>
+        <li><a href="games.html">My Games</a></li>
+        <li><a href="../journal/journal.html"> Journal</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+
+<div class= "overBox">
+<h3 class="subTitles">RPS Game</h3>
+<div class="container">	
+
+<div class="row">
+	<div> <!--This creates a border around an image of a rock-->
+		<img class="col-xs-4" src="../images/rock.png" class="img-responsive"  />	<!--another border is added with the class-->
+		</div>
+
+	<div> <!--This creates a border around an image of paper-->
+		<img class="col-xs-4" src="../images/paper.png" class="img-responsive"  /> <!--another border is added with the class-->
+		</div>
+
+	<div> <!--This creates a border around an image of scissors-->
+		<img class="col-xs-4" src="../images/scissors.jpg" class="img-responsive"  /> <!--another border is added with the class-->
+		</div>
+</div>
+<div class="row">	
+	<input type=button value="Select Rock..."  class="col-xs-4" class="buttonStyle" onclick="rock()" /> <!--this is the rock selector button-->
+	
+	<input type=button value="Select Paper..."  class="col-xs-4" class="buttonStyle"	onclick="paper()" /><!--this is the paper selector button-->
+	 		
+	<input type=button value="Select Scissors..."  class="col-xs-4" class="buttonStyle" onclick="scissors()" /> <!--this is the scissors selector button-->
+</div>	
+</div>
+	
+
+
+<div class="row">
+	
+  <div class="col-xs-3"></div>
+    <div class="col-xs-2"><div id="ScorePStyle"><p class=:"text-responsive" id ="scoreMarker">S C O R E:</p></div> <!--simply labels the score-->
+    </div>
+    <div class="col-xs-2"><p id="yourresults0"></p> </div> <!--simply labels the score-->
+    
+    <div class="col-xs-2"><p id ="yourScore">0</p> <!--a score is kept-->
+    </div>
+	  
+  <div class="col-xs-3"></div>  
+</div>
+
+<h3 class="subTitles">Scratch Game</h3>
+<div class="row">
+    
+    <div class="col-xs-4"> <!--some instructions on the scratch game-->      
+           <p class="text-responsive">Space Begins the game form the title screen.
+When In-game, move with the usual W,A,S,D controls. When near an enemy, slug em' with your bat using the Spacebar, but don't touch the big guy, you'll need something stronger to fight him...</p>
+          <p class="text-responsive">(CREDITS)Title music: Horse Steppin' by Sun Araw
+In-Game Music: Flying Lotus- My Chippy (Brandon* Remix)
+"Done" Music : Crash by Ele Huevo
+Mission Success : Miami2- The Hotline Miami Soundtrack</p>
+    </div>
+    <div class="col-xs-4">
+        <iframe allowtransparency="true" width="98%" height="98%" src="http://scratch.mit.edu/projects/embed/38487462/?autostart=false" frameborder="0" allowfullscreen></iframe> <!--Yhis is the scratch game embedded...-->
+    </div>
+    <div class="col-xs-4"></div>
+
+</div>
+
+
+<footer class="footerBorder">A Digital Design and Computer Coding 2 Site by Soren Cornell (14-15)</footer> <!--there is some style for the footer-->
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="../js/scripts.js"></script>
+</body>
+</html>
