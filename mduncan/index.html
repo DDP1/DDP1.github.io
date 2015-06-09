@@ -66,6 +66,7 @@
                       
                     </ul>
                     <h2 id="timeTable" ></h2>
+
                   </div>
 
               </div>
@@ -90,32 +91,19 @@
 				<form class="form-horizontal" role="form">
         <label>Sign-up for our news letter:</label>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
+                        <label class="sr-only" for="exampleInputEmail3">Enter E-Mail Adress Here...</label>
+                        <input name="email" type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+                      </div>
+                       
+                       
+                        
+                        <input name="submit" type="submit" class="btn btn-default">
+              </div>             
+  
   </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" >Submit</button>
-    </div>
-  </div>
-</form>
+ 
 					
-
+  <h1 id="displayText"></h1>
 
 <br></br>
 
@@ -133,7 +121,9 @@
   <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-body">
-            <img src="images/StegoRender.jpg" class="img-responsive">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="./images/StegoRender.jpg" class="img-rounded" id="poppedImage">
+            <h2>In This scene I decorated the environment with assets purchased for Wrath Of The Goliath: Dinosaurs.</h2>
         </div>
     </div>
   </div>
@@ -145,7 +135,9 @@
   <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-body">
-            <img src="images/carno.jpg" class="img-responsive">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="./images/Carno.jpg" class="img-rounded" id="poppedImage">
+            <h2>In This scene I decorated the environment with assets purchased for Wrath Of The Goliath: Dinosaurs.</h2>
         </div>
     </div>
   </div>
@@ -157,7 +149,9 @@
   <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-body">
-            <img src="images/carcha.jpg" class="img-responsive">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="./images/Carcha.jpg" class="img-rounded" id="poppedImage">
+            <h2>In This scene I decorated the environment with assets purchased for Wrath Of The Goliath: Dinosaurs.</h2>
         </div>
     </div>
   </div>
@@ -173,22 +167,21 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
-    <script src="js/timeScript.js"></script>
+    <script src="./js/timeScript.js"></script>
 
-    <script src="js/formscript.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="./js/formscript.js"></script>
+		<script src="./js/jquery-1.11.3.js"></script> 
     <script src="http://malsup.github.com/jquery.form.js"></script> 
  
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/bootstrap-lightbox.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/bootstrap-lightbox.min.css">
  
-<script src="assets/js/bootstrap.js"></script> <!-- Or just bootstrap-tooltip.js -->
-<script src="assets/js/bootstrap-lightbox.js"></script>
-<script src="assets/js/bootstrap-img-lightbox-tooltip.js"></script>
+<script src="./js/bootstrap.js"></script> <!-- Or just bootstrap-tooltip.js -->
+<script src="./js/bootstrap-lightbox.js"></script>
 
 	
 

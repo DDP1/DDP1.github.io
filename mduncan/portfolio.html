@@ -8,9 +8,9 @@
       <title>DDCC Final Project</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-   <link type = "text/css" rel = "stylesheet" href = "css/rps_css.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+   <link type = "text/css" rel = "stylesheet" href = "./css/rps_css.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,6 +70,7 @@
                       
                     </ul>
                     <h2 id="timeTable" ></h2>
+                                          
                   </div>
 
               </div>
@@ -78,12 +79,12 @@
 <div class="container">
 <div class="row">
   <div class="col-xs-12">
-    <h1>Portfolio<small> My works and projects</small></h1>
+    <h1 id="Title">Portfolio<small> My works and projects</small></h1>
   </div>
 </div>
 <div class="media">
   <div class="media-body">
-    <h2 class="media-heading">My works</h2>
+    <h2 class="media-heading" id="textStyle">My works</h2>
 
       My most notable work is for the project Wrath Of The Goliaths: Dinosaurs. Below you can see my work as a level designer, the models were provided by Manuel Gil. I have about 4+ years worth of experience in modeling, most notably in Maya 2012 and Blender. I also have 4+ programming experience in Javascript, Unityscript (A Javascript like code), C#, HTML, and 3 months worth of PHP. I also have half a years worth of experience in Animation in Blender. I have worked in Bitmap2Material, Unreal Engine 4, Unity 3 4 and 5, Substance Designer, and Substance Painter. 
     
@@ -93,43 +94,65 @@
 
 
 
-    
-    <div class="col-lg-10 col-lg-offset-1 text-center">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+                    
                         
-                        
-        
-       
+                      
+           
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myStego"><img src="images/Stego.png" alt="stego" id="clickableImg"></button>
 
-             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myStegoIG"><img src="images/Stego.jpg" alt="stego" id="clickableImg"></button>
-
-<div id="myStegoIG" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="myStego" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-body">
-            <img src="images/Stego.jpg" class="img-responsive">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="images/Stego.png" class="img-rounded" id="poppedImage">
+            <h2>In This scene I decorated the environment with assets purchased for Wrath Of The Goliath: Dinosaurs. While the Stegosaurus seen here is created by Manuel Gil.</h2>
+             
         </div>
     </div>
   </div>
 </div>
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myNest"><img src="images/EggNest_Promo.png" alt="nest" id="clickableImg"></button>
+
+<div id="myNest" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="images/EggNest_Promo.png" class="img-rounded" id="poppedImage">
+            <h2>In this scene I added the egg shell bumps and detail to the nest; along with creating the scene.</h2>
+             
+        </div>
+    </div>
+  </div>
 </div>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rSqHnvIpX0U" frameborder="0" allowfullscreen></iframe>
+<h1>In the Carnotaurus Teaser video, I created the environment, the video itself, and the Carnotaurus Animations due to our animator being absent.</h1>
+<hr></hr>
+<hr></hr>
 
-<script src="js/jquery.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+  <script src="./js/jquery-1.11.3.min.js"></script>
   <script src="js/formscript.js"></script>
 
 
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/timeScript.js"></script>
 
   
-  <script src="js/script.js"></script>
+  <script src="js/formscript.js"></script>
   </body>
 </html>
    

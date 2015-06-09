@@ -11,6 +11,16 @@
 
 }
 
+
+
+
+#Title a
+{
+
+	text-align: center;
+
+}
+
  #Title
  {
 
@@ -23,13 +33,35 @@
 
  }
 
- #smallImage
+#dateLink
+{	
+	border-radius: 3px;
+	border: solid #45556F 5px;
+ 	margin: 0;
+	font-size: 16px;
+ 	font-weight: bolder;
+	background-color: #45556F;
+	color: white;
+}
+
+
+
+ #poppedImage
  {
 
- 	width: 256px;
- 	height: 256px;
+ 	width: 1024px;
+ 	height: 512px;
 
  }
+
+ #dateLink :hover
+{	
+	border-radius: 5px;
+	border: solid #8791A2 5px;
+ 	font-size: 24px;
+	background-color: #8791A2;
+	color: #45556F;
+}
 
 #background
 {
@@ -54,13 +86,20 @@
  #secondaryTextStyle
  {
 
- 	background-color: #7B5841;
- 	border: solid #7B5841 5px;
- 	border-radius: 5px;
- 	color: #A87E62;
+ 
+ 	color: #6E4223;
 
 
  }
+
+
+#Title small
+{
+
+	color: 7E5941;
+
+}
+
 
  #navStyle
  {
@@ -69,3 +108,38 @@
 
  }
 
+
+.modal-dialog {
+  width: 1080px;
+  height: 720px;
+  padding: 0;
+}
+
+.modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+ h1::selection
+{
+
+	background: red;
+	color: blue;
+
+}
+
+ a::selection
+{
+
+	background: green;
+	color: black;
+
+}
+
+ ::selection
+{
+
+	background: silver;
+	color: yellow;
+
+}

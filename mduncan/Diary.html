@@ -9,9 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-   <link type = "text/css" rel = "stylesheet" href = "css/rps_css.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,7 +68,18 @@
                       </li>
                       
                     </ul>
+
+
                     <h2 id="timeTable" ></h2>
+
+
+                        <!-- child of the body tag -->
+<span id="top-link-block-">
+
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        Back to Top
+    </a><i class="fa fa-arrow-circle-up">^</i> 
+</span><!-- /top-link-block -->
                   </div>
 
               </div>
@@ -79,163 +88,172 @@
 <div class="container">
 <div class="row">
   <div class="col-xs-12">
-    <h1>Daily Web Journal</small></h1>
+
   </div>
 </div>
 <div class="media">
   <div class="media-body">
-    <h2 class="media-heading">Web Journal Entries:</h2>
-    <a href="#dailyLog week3">Week 3</a>
+  <h1 id="Title">Daily Web Journal</small></h1>
+    <h2 class="media-heading" id="Title">Web Journal Entries:</h2>
+    <a href="#dailyLog week3" id="dateLink">Week3</a>
     <a>|</a>
-    <a href="#dailyLog 222">2/22/15</a>
+    <a href="#dailyLog 222" id="dateLink">2/22/15</a>
     <a>|</a>
-    <a href="#dailyLog 223">2/23/15</a>
+    <a href="#dailyLog 223" id="dateLink">2/23/15</a>
     <a>|</a>
-    <a href="#dailyLog 225">2/25/15</a>
+    <a href="#dailyLog 225" id="dateLink">2/25/15</a>
     <a>|</a>
-    <a href="#dailyLog 32">3/2/15</a>
+    <a href="#dailyLog 32" id="dateLink">3/2/15</a>
     <a>|</a>
-    <a href="#dailyLog 35">3/5/15</a>
+    <a href="#dailyLog 35" id="dateLink">3/5/15</a>
     <a>|</a>
-    <a href="#dailyLog 39">3/9/15</a>
+    <a href="#dailyLog 39" id="dateLink">3/9/15</a>
     <a>|</a>
-    <a href="#dailyLog 316">3/16/15</a>
+    <a href="#dailyLog 316" id="dateLink">3/16/15</a>
     <a>|</a>
-    <a href="#dailyLog 43">4/3/15</a>
+    <a href="#dailyLog 43" id="dateLink">4/3/15</a>
     <a>|</a>
-    <a href="#dailyLog 49">4/9/15</a>
+    <a href="#dailyLog 49" id="dateLink">4/9/15</a>
     <a>|</a>
-    <a href="#dailyLog 413">4/13/15</a>
+    <a href="#dailyLog 413" id="dateLink">4/13/15</a>
     <a>|</a>
-    <a href="#dailyLog 414">4/14/15</a>
+    <a href="#dailyLog 414" id="dateLink">4/14/15</a>
     <a>|</a>
-    <a href="#dailyLog 416">4/16/15</a>
+    <a href="#dailyLog 416" id="dateLink">4/16/15</a>
     <a>|</a>
-    <a href="#dailyLog 526">5/26/15</a>
+    <a href="#dailyLog 526" id="dateLink">5/26/15</a>
     <a>|</a>
-    <a href="#dailyLog 61">6/1/15</a>
+    <a href="#dailyLog 61" id="dateLink">6/1/15</a>
     <a>|</a>
 
 
     <HR WIDTH="100%">
-      <div id="dailyLog week3">
-          <a> Week 3:</a>
+      <div id="dailyLog week3" class="diaryLogs">
+          <a class="Dates"> Week 3:</a>
           <h1>Vars or variables, are interchange-able, they can be arrays, strings, numbers, etc. String vars are variables with text inside them. Number vars are variables that can be floats, numbers inbetween 0 - 1, so 0.35, and intergers, ints can only be solid numbers like 1, 2, etc.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 222">
-          <a> 2/22/15:</a>
+      <div id="dailyLog 222" class="diaryLogs">
+          <a class="Dates"> 2/22/15:</a>
           <h1>Absent</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 223">
-          <a> 2/23/15</a>
+      <div id="dailyLog 223" class="diaryLogs">
+          <a class="Dates"> 2/23/15</a>
           <h1>Worked on creating a for loop in Javascript, along with an array.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 225">
-          <a> 2/25/15</a>
+      <div id="dailyLog 225" class="diaryLogs">
+          <a class="Dates"> 2/25/15</a>
           <h1>Got caught up on some work and finished what I was working on on the 23rd.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 32">
-          <a> 3/2/15</a>
+      <div id="dailyLog 32" class="diaryLogs">
+          <a class="Dates"> 3/2/15</a>
           <h1>Wrote up the Javascript cheat sheet.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 33">
-          <a> 3/3/15</a>
+      <div id="dailyLog 33" class="diaryLogs">
+          <a class="Dates"> 3/3/15</a>
           <h1>Learned what .push .pop .unshift and .shift and what they do. I also caught up on some work.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 35">
-          <a> 3/5/15</a>
+      <div id="dailyLog 35" class="diaryLogs">
+          <a class="Dates"> 3/5/15</a>
           <h1>Absent</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 39">
-          <a> 3/9/15</a>
+      <div id="dailyLog 39" class="diaryLogs" >
+          <a class="Dates"> 3/9/15</a>
           <h1>Worked on Javascript Project 1 and watched the Javascripts screen cast. Checked off things on the checklist and did some random activites.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 316">
-          <a> 3/16/15</a>
+      <div id="dailyLog 316"class="diaryLogs">
+          <a class="Dates"> 3/16/15</a>
           <h1>I worked on my Javascripts project, didn't get sick by the nerd on my left! The End R.I.P.</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 43">
-          <a> 4/3/15</a>
+      <div id="dailyLog 43"class="diaryLogs">
+          <a class="Dates"> 4/3/15</a>
           <h1>I finished up my Final Javascript Project, it looks really good!</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 49">
-          <a> 4/9/15</a>
+      <div id="dailyLog 49"class="diaryLogs">
+          <a class="Dates"> 4/9/15</a>
           <h1>I am almost done with my rock paper scissors project!</h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 413">
-          <a> 4/13/15</a>
+      <div id="dailyLog 413"class="diaryLogs">
+          <a class="Dates"> 4/13/15</a>
           <h1>Completed the Rock Paper and Scissors project. I then was able to review projects and grade them.</h1>
       </div>
       <HR WIDTH="100%">
 
 
-      <div id="dailyLog 414">
-          <a> 4/14/15</a>
+      <div id="dailyLog 414"class="diaryLogs">
+          <a class="Dates"> 4/14/15</a>
           <h1>I worked with bootstrap and was able to complete the small project with it. 3 paragraphs, 4 images, 2 paragraphs. I reviewed the three sites: http://www.engzell.me, which is a description/portfolio for Engzell, it is made fairly well. Another is http://www.timeshift65.com, which is about a car, and an anniversary for a company, you get to play a minigame there too. Finally, I reviewed http://www.marcoproiettidesign.com, which is a shoe designer. It is a decent website. </h1>
       </div>
       <HR WIDTH="100%">
 
-      <div id="dailyLog 416">
-          <a> 4/16/15</a>
+      <div id="dailyLog 416"class="diaryLogs">
+          <a class="Dates"> 4/16/15</a>
           <h1>I did the drill and finished the grid project.</h1>
       </div>
           <HR WIDTH="100%">
 
-            <div id="dailyLog 526">
-          <a> 5/26/15</a>
+            <div id="dailyLog 526"class="diaryLogs">
+          <a class="Dates"> 5/26/15</a>
           <h1>Added a lot of content to final project, fixed bugs and problems. And made some unique additions like time and scroll to location on my pages.</h1>
       </div>
           <HR WIDTH="100%">
 
-             <div id="dailyLog 61">
-          <a> 6/1/15</a>
+             <div id="dailyLog 61"class="diaryLogs">
+          <a class="Dates"> 6/1/15</a>
           <h1>Fininshing up my website :) Gonna be a good day.</h1>
       </div>
-          <HR WIDTH="100%">
+          <HR WIDTH="100%"></HR>
   </div>
 
 </div>
 
+<div>
+</div>
 
+</div>
+
+ 
+
+
+
+<br></br>
+<br></br>
     
-<script src="js/jquery.min.js"></script>
-  <script src="js/formscript.js"></script>
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <script src="./js/formscript.js"></script>
 
 
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/timeScript.js"></script>
 
   
-  <script src="ja/script.js"></script>
+  <script src="./js/smallFunctions.js"></script>
   </body>
 </html>
    
