@@ -11,16 +11,17 @@ $(window).on("resize", function () {
 
 
 ///This prints the form information
-var form = document.forms.FormPrac;
+var form = document.forms.formprac;
 form.addEventListener("submit", displayPerson,false)
 function displayPerson(event) {
 	event.preventDefault();
 	var Person = {
 		
 		info: form.email.value,
+		Firstname: form.firstName.value,
 };
 console.log(Person.name);
-var html="Thank you for signing up, we have sent a notification to your E-Mail: " + Person.info ;
-document.getElementById("displayText").innerHTML = html;
+var html="Thank you for signing up, " + Person.Firstname + ", we have sent a notification to your E-Mail: " + Person.info ;
+document.getElementById("displayPerson").innerHTML = html;
 }
 
