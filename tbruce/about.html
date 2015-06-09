@@ -36,21 +36,36 @@
   </div>
   <div class="colorBar2"><div class="colorBar"></div><div class="colorBar3"></div></div>
   <p>I am a high schooler in Portland Oregon, the city of roses. I am on the cross country and track teams and I am part of the ComuniCare program.  In the ComuniCare program we function as a mini nonprofit for a year.  We earn money selling icecream and chocolate roses. If we make over 1,000$ the Schnitzers give us 10,000$. Then towards the end of the year we donate that money to local nonprofits, charities, and in school programs. I have used my experiences in this coding class in ComuniCare to create appealing emails. I enjoy bikeing a lot.  I used to race cyclocross and now I ride to school.</p>
-  <p>Do you have bike?</p>
-  <form class="biker" name="biker">
-    <input type="radio" name="bike" value="yes" checked>Yes
-    <br>
-    <input type="radio" name="bike" value="no">No
-    <br>
-   First name:<br>
-   <input type="text" name="firstname" value="">
-   <br>
-   Last name:<br>
-   <input type="text" name="lastname" value="">
-   <br><br>
-   <input type="submit" value="Submit">
-  </form>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8" id="formBox">
+    <p>Do you have bike?</p>
+       <form class="biker" name="biker">
+       <input type="radio" name="bike" value="yes" checked>Yes
+       <br>
+       <input type="radio" name="bike" value="no">No
+       <br>
+       First name:<br>
+       <input type="text" name="firstname" value="">
+       <br>
+       Last name:<br>
+       <input type="text" name="lastname" value="">
+       <br><br>
+       <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
   <p id="results"></p>
+<div class="row">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10" class="imgBox"><img class= "img-responsive" src="css/photos/portland.jpg"></div>
+  <div class="col-sm-1"></div>  
+</div>
+<div class="row">
+  <div class="col-sm-6" class="imgBox"><img class= "img-responsive" src="css/photos/gatsby.gif"></div>
+  <div class="col-sm-6" class="imgBox"><img class= "img-responsive" src="css/photos/bikeimg.jpg"></div>
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
