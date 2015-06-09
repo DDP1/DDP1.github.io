@@ -1,0 +1,29 @@
+h1{
+	color: white;
+}
+
+#nav{
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#welcome{
+	text-align: center;
+}
+
+.center{
+	text-align: center
+}
+
+p{
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+a{
+	color: red;
+}
