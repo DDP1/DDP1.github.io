@@ -10,5 +10,5 @@ function displayPerson(event) {
 console.log(Person.name);//this logs person.name in the console
 var html="<p>thank you for your : &#36;" + Person.name + " and for logging in with the email: " + Person.info + ".</p>";
 document.getElementById("displayText").innerHTML = html;// this writes what someone inputs to any place that the id is 
-named display  text
+//named display  text
 }

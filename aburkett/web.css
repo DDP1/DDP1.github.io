@@ -1,0 +1,95 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("http://fractaltshirts.com/vortex/animated%20fractal%20800.gif");
+    color: white;
+}
+
+img {
+	border: solid black 5px;
+	border-radius: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: center;
+	width: 25%;
+	height: 20%;
+}
+
+
+a:hover   {color: none; background-color: #A3800B}
+
+
+#menuBar{
+	border: solid black 5px;
+	border-radius: 25px;
+	background-color: #ff4d4d;
+	width: 100%;
+}
+
+#resources {
+background-color: #BADB63;
+}
+
+#menuBar a:link, a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #ff4d4d;
+    text-align: center;
+    padding: 100px;
+    margin-right: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menuBar li{
+    display: inline;
+}
+
+#journalTitle {
+	text-align: center;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.journalWrapper {
+	border: solid black 10px;
+	border-radius: 10px;
+	background-image: url("http://bwalles.com/wp-content/uploads/2013/10/Rainbow-1080p-Desktop-Background-15-.jpg");
+	margin: 20px auto;
+	width: 85%;
+	padding: 20px;
+}
+.row img{
+	border: solid black 5px;
+	border-radius: 5%;
+	width: 350px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: center;
+
+}
+
+.body h4{
+	color: red;
+	background-color: white;
+}
+
+#results{
+	color: red;
+	text-align: center;
+
+
+

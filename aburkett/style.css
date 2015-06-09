@@ -1,0 +1,134 @@
+p{
+  color: red;
+  text-align: center;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  border: solid black 10px;
+  border-radius: 20px;
+  background-color: #FFAC4E;
+  background-image: url("http://www.awesomebackgrounds.com/templates/as-fire-apb-anim-1.GIF");
+  padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUJ66FFrTCALrqJaVIJKMH46-_7nJZNbVbBJWg-gNyYIe3L6iQUA");
+}
+
+img {
+  border: solid black 5px;
+  border-radius: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: center;
+  width: 25%;
+  height: 20%;
+}
+
+a:hover   {color: none; background-color: #A3800B}
+
+
+#menuBar{
+  border: solid black 5px;
+  border-radius: 25px;
+  background-color: #ff4d4d;
+  width: 100%;
+}
+
+#resources {
+background-color: #BADB63;
+}
+
+#menuBar a:link, a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #ff4d4d;
+    text-align: center;
+    padding: 100px;
+    margin-right: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menuBar li{
+    display: inline;
+}
+
+
+.gameWrapper {
+  width: 95%;
+  height: 200px;
+  border: solid black 10px;
+  border-radius: 20px;
+  background-color: #FFC300;
+  padding: 20px;
+  text-align: center;
+}
+
+.gameWrapper:hover #rock{
+ background-image: url("http://fc03.deviantart.net/fs70/f/2013/168/0/5/stone_wall_texture_by_tusserte-d69ixxe.jpg"); 
+}
+
+.gameWrapper #rock{
+  background: #5B80C9;
+  border-radius: 25px;
+  font-family: Courier New;
+  font-size: 50px;
+  padding: 20px;
+  height: 175px;
+  margin-right: 100px;
+
+}
+
+.gameWrapper:hover #paper{
+ background-image: url("http://fc01.deviantart.net/fs71/i/2012/008/b/8/crumpled_paper_texture_by_claireone-d4lqv42.jpg"); 
+}
+
+.gameWrapper #paper{
+  background: #60E059;
+  border-radius: 25px;
+  font-family: Courier New;
+  font-size: 50px;
+  padding: 20px;
+  height: 175px;
+}
+
+.gameWrapper:hover #scissors{
+ background-image: url("http://kreslo4u.ru/pic/537.jpg"); 
+}
+
+.gameWrapper #scissors{
+  background: #FE1C16;
+  border-radius: 25px;
+  font-family: Courier New;
+  font-size: 50px;
+  padding: 20px;
+  height: 175px;
+  margin-left: 100px;
+}
+
+
+.container{
+  background-color: black;
+  text-align: center;
+}
+.container img{
+  width: 10%;
+  height: 10%;
+}
+
+.container #one img{
+  width: 6.5%;
+  height: 6.5%;
+}
+
