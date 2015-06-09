@@ -78,20 +78,34 @@ function playGame () {
 };
 
 //script for forms
+var areBike ="";
+var bicycle ="";
+var firstname ="";
+var lastname ="";
+console.log (firstname);
+
 var form = document.forms.biker;
+
 form.addEventListener("submit",bikeCheck,false);
+
 function bikeCheck(event) {
 	event.preventDefault();
-	
-	if (bike="yes") {
-		var bicycle = "are"
-	}else{
-		var bicycle = "aren't"
-	};
 
-	var text = "You"+firstname+lastname+bicycle+"a biker";
-	document.getElementById('results').
-		innerHTML = text
+	var bicycle = form.bike.value;
+
+	var firstname = form.firstname.value;
+	var lastname = form.lastname.value;
+
+	if (bicycle==="yes") {
+		var areBike = "are"
+	}else{
+		var areBike = "aren't"
+	};
+	console.log(firstname);
+	console.log(lastname);
+
+	var text = ["You "+firstname+" "+lastname+" "+areBike+" a biker!"];
+	document.getElementById('results').innerHTML = text;
 }
 
 
