@@ -33,7 +33,7 @@ function randomNumber() { // picks a random number bettween 1-100
 
 function computerChoice() {// (1-33 is 1) (34-66 is 2) (67-100 is 3)
 	if (randomNum <= 33) {
-		var picture = "<div id='Cbox'>" + "<img id='CompPics' src='pic/Rock.jpg' class='img-responsive'>" + "</div>";
+		var picture = "<div id='Cbox'>" + "<img id='CompPics' src='pic/rock.jpg' class='img-responsive'>" + "</div>";
 		document.getElementById("choice").innerHTML = picture
 		compChoice = 1;
 	} else if (randomNum <= 66){
