@@ -86,7 +86,7 @@ function cookies(event) {
 		rating: form.graham.value,
 	}
 
-	var text = "<p>Gotta catch em all!, " + chips.rating +".</p>";
+	var text = "<p>Gotta catch em all! " + chips.rating +"@</p>";
 
 	document.getElementById("results").innerHTML = text;
 }
