@@ -1,0 +1,101 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+h3 {
+	color: #B51228;
+	text-align: center;
+}
+
+h4{
+	color: #AF2259;
+	text-align: center;
+}
+
+p{
+	color: #AF2259;
+	text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("https://overheadproductions.files.wordpress.com/2013/06/sequence-01-still0074.jpg");
+}
+
+img {
+	border: solid black 5px;
+	border-radius: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: center;
+	width: 25%;
+	height: 20%;
+}
+
+
+a:hover   {color: none; background-color: #A3800B}
+
+
+#menuBar{
+	border: solid black 5px;
+	border-radius: 25px;
+	background-color: #ff4d4d;
+	width: 100%;
+}
+
+#menuBar a:link, a:visited {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #ff4d4d;
+    text-align: center;
+    padding: 100px;
+    margin-right: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menuBar li{
+    display: inline;
+}
+
+.row img{
+	border: solid black 5px;
+	border-radius: 5%;
+	width: 350px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: center;
+
+}
+
+.body h4{
+	color: white;
+	
+}
+
+#results{
+	color: red;
+	text-align: center;
+}
+
+.journalWrapper {
+	border: solid black 10px;
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 85%;
+	padding: 20px;
+}
+
+#mirror{
+	background-image: url("http://www.publicdomainpictures.net/pictures/70000/nahled/silver-christmas-background.jpg");
+}

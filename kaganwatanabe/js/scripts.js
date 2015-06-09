@@ -1,30 +1,32 @@
-var userChoice=0;
+var userChoice=0;//setts all the vars equal ot 0
 var compChoice=0;
 var randomNum=0;
-function playerRock(){
+var compPoints=0;// this would set your points to zero but does not work	
+var userPoints=0;
+function playerRock(){//defines the function player rock and sets it equal ot 1
 	userChoice = 1;	
 	randomNumber();
 }
-function playerPaper(){
+function playerPaper(){ // defines the function player paper andsets it equal to 2
 	userChoice = 2;
 	console.log("paper for player")
 	randomNumber();   
 
 }
-function playerScissors(){
+function playerScissors(){//defines the functhin player scissors and sets it equal ot 3
 	userChoice = 3;
 	randomNumber();
 }
 function randomNumber(){
-	randomNum = Math.floor(Math.random()*100)
+	randomNum = Math.floor(Math.random()*100)// this iswhat makes the compuer wins by genirtatin a nubmer and then giving by saying 
 	computerChoice()
 }
-function computerChoice(){
+function computerChoice(){// if hte nubmer is grater tahn or eequal ot 33 the comp choies is one(rock)
 	if (randomNum<=33){
 		compChoice = 1;
-	}else if (randomNum <= 66){
+	}else if (randomNum <= 66){// if the number is graterthan or equal to 66 then the comps choise = 66(paper)
 		compChoice = 2;
-	}else if (randomNum <=100){
+	}else if (randomNum <=100){// if the computer choise is grater tahn 100 or eual to it sets teh number eequal to 3 (scissors)
 		compChoice = 3;
 	};
 	compare();
@@ -32,18 +34,34 @@ function computerChoice(){
 
 function compare(){
 	if (userChoice === compChoice) {
-		alert("If it was a win you now loose! but if it was a loss it was a tie but now a loss")
-	} else if (userChoice ===1 && compChoice === 2){
-			alert("The reptile has a far supiror intalect than a bacon so if!");
+		alert("Its a tie")
+	
+	} else if (userChoice ===1 && compChoice === 2){// this is how y ou see who wins by the normal rock paper scissors rules
+	
+		alert("Paper beats Rock, you loose");
+	
 	} else if (userChoice=== 1 && compChoice === 3){
-		alert("The Bacon has evovled and swolloed the kid the anfibian now wins");
+		alert("Rock beats scissors, you win");
+		userChoice += 1;
+		document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
 	}else if (userChoice ===2 && compChoice === 1){
-			alert("I dont know ");
+			alert("Paper beats rock, you win");
+		    userChoice += 1;
+		    document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
 	} else if (userChoice === 2 && compChoice === 3){
-		alert("Kid with bacon grabs book with bacon greesed hands the binding is now ruend book wins");
+		alert("Scissors beats paper, you loose");
+	
 	}else if (userChoice === 3 && compChoice === 1){
-			alert("You choose somethign other than greesy bacon handded book. It is a tie");
-	} else if (userChoice=== 3 && compChoice === 3){
-		alert("The turtal has a fancy for bacon coverd boosk the kid wins");
+			alert("Rock beats scissors, you win");
+		     userChoice += 1;
+		     document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
+	} else if (userChoice=== 3 && compChoice === 2){
+		alert("Scissors beats paper, you win");
 	}
+
 }
+
+
