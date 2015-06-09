@@ -1,6 +1,8 @@
 var userChoice=0;
 var compChoice=0;
 var randomNum=0;
+var compPoints=0;
+var userPoints=0;
 function playerRock(){
 	userChoice = 1;	
 	randomNumber();
@@ -32,18 +34,34 @@ function computerChoice(){
 
 function compare(){
 	if (userChoice === compChoice) {
-		alert("If it was a win you now loose! but if it was a loss it was a tie but now a loss")
+		alert("Its a tie")
+	
 	} else if (userChoice ===1 && compChoice === 2){
-			alert("The reptile has a far supiror intalect than a bacon so if!");
+	
+		alert("Paper beats Rock, you loose");
+	
 	} else if (userChoice=== 1 && compChoice === 3){
-		alert("The Bacon has evovled and swolloed the kid the anfibian now wins");
+		alert("Rock beats scissors, you win");
+		userChoice += 1;
+		document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
 	}else if (userChoice ===2 && compChoice === 1){
-			alert("I dont know ");
+			alert("Paper beats rock, you win");
+		    userChoice += 1;
+		    document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
 	} else if (userChoice === 2 && compChoice === 3){
-		alert("Kid with bacon grabs book with bacon greesed hands the binding is now ruend book wins");
+		alert("Scissors beats paper, you loose");
+	
 	}else if (userChoice === 3 && compChoice === 1){
-			alert("You choose somethign other than greesy bacon handded book. It is a tie");
-	} else if (userChoice=== 3 && compChoice === 3){
-		alert("The turtal has a fancy for bacon coverd boosk the kid wins");
+			alert("Rock beats scissors, you win");
+		     userChoice += 1;
+		     document.getElementById("userPointstally").innerHTML= userPoints.toString();
+	
+	} else if (userChoice=== 3 && compChoice === 2){
+		alert("Scissors beats paper, you win");
 	}
+
 }
+
+
