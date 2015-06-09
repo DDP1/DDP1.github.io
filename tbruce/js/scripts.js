@@ -77,11 +77,12 @@ function playGame () {
 	console.log(score);
 };
 
-//script for forms
+//script for forms. These variables are used to store the information receved from the form
 var areBike ="";
 var bicycle ="";
 var firstname ="";
 var lastname ="";
+//firstname is loged to check that it is working
 console.log (firstname);
 
 var form = document.forms.biker;
@@ -90,20 +91,20 @@ form.addEventListener("submit",bikeCheck,false);
 
 function bikeCheck(event) {
 	event.preventDefault();
-
+//all imputs from the form are transfered to the variables above
 	var bicycle = form.bike.value;
-
 	var firstname = form.firstname.value;
 	var lastname = form.lastname.value;
-
+//the value of bicycle is checked to produce the desiered value for the sentence to be printed
 	if (bicycle==="yes") {
 		var areBike = "are"
 	}else{
 		var areBike = "aren't"
 	};
+//first name and last name a logged to check that the function is running
 	console.log(firstname);
 	console.log(lastname);
-
+//the variable text is set to the combination of the desired variables to create a sentence.  This sentence is now printed to the browser.
 	var text = ["You "+firstname+" "+lastname+" "+areBike+" a biker!"];
 	document.getElementById('results').innerHTML = text;
 }
