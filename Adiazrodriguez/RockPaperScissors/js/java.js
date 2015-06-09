@@ -88,57 +88,37 @@ function compare() {
 		var tie = "<div>" + "<h1 id='result_text'>" + "IT'S A TIE!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = tie;
 		console.log("It's a tie!");
-		//alert("It's a tie!");
-	} 
+			} 
 
 	else if (userChoice === 1 && compChoice === 2) {
 		var compWin = "<div>" + "<h1 id='result_text'>" + "COMPUTER WINS!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = compWin;
 		console.log("Computer Wins!");
-		//alert("Computer Wins!");
 	}
 	  else if (userChoice === 1 && compChoice === 3) {
 	  	var userWin = "<div>" + "<h1 id='result_text'>" + "YOU WIN!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = userWin;
 	  	console.log("You Win!");
-	  	//alert("Your Win!");
 	}
 	   else if (userChoice === 2 && compChoice === 1) {
 	   	var userWin = "<div>" + "<h1 id='result_text'>" + "YOU WIN!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = userWin;
 	   	console.log("You Win!");
-	   	//alert("You Win!");
 	}
 	   else if (userChoice === 2 && compChoice === 3) {
 	   	var compWin = "<div>" + "<h1 id='result_text'>" + "COMPUTER WINS!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = compWin;
 	   	console.log("Computer Wins!");
-	   //alert("Computer Wins!");
 	}
 	   else if (userChoice === 3 && compChoice === 1) {
 	   	var compWin = "<div>" + "<h1 id='result_text'>" + "COMPUTER WINS!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = compWin;
 	   	console.log("Computer Wins!");
-	   //alert("Computer Wins!");	
 	}
 	   else if (userChoice ===3 && compChoice === 2) {
 	   	var userWin = "<div>" + "<h1 id='result_text'>" + "YOU WIN!!!" + "</h1>" + "</div>";
 		document.getElementById("result").innerHTML = userWin;
-	   	console.log("You Win!");
-	   //alert("You Win!");
+	   	console.log("You Win!")
 	}
 		console.log("");
 	}
-
-		//winCount();
-
-	//function winCount() {
-
-		
-	//for (i=0 ; i<5 ; i++) {
-		//champs.push(prompt("List you five most favorite champions"));
-		//leftEmpty += champs[i] + "<br>";
-		//document.getElementById("CompCount").innerHTML = leftEmpty;
-//}
-//};
-	//}
